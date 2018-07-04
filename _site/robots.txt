@@ -1,0 +1,16 @@
+User-Agent: *
+
+Disallow: /success
+Disallow: /404
+Disallow: /privacy-policy
+Disallow: /terms-and-conditions
+Disallow: /services
+Disallow: /services/graphic-design
+Disallow: /services/website-design
+
+Allow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+Sitemap: https://makeaweb.com.au/sitemap.xml

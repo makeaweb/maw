@@ -1,0 +1,85 @@
+---
+layout: default
+---
+<div id="article">
+    <div  class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-9">
+                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header pt-10">
+                        <h1 class="post-title mb-5 text-monospace text-center" itemprop="name headline">{{ page.title | escape }}</h1>
+                        <p class="post-meta text-center">
+                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                            {% if page.updated != null %}
+                                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+                                    Last updated {{ page.updated | date: date_format }}
+                                </time>
+                            {% endif %}
+                            {% if page.updated == null %}
+                                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                                    Published on {{ page.date | date: date_format }}
+                                </time>
+                            {% endif %}
+                            <a title="Read about the author" class="no-anchor-styles text-dark" data-toggle="collapse" href="#aboutAuthor" role="button" aria-expanded="false" aria-controls="aboutAuthor"><span class="author-bio" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> by {{ site.author | escape }}</span><img class="ml-1 author-image position-relative rounded-circle" src="/assets/images/dest/authors/adam-kolinski.jpg" alt="Image of author, {{ site.author | escape }}" /></span></a>
+                            <div class="collapse" id="aboutAuthor">
+                                <div class="card card-body border-left-0 border-right-0">
+                                     Hi, I'm a Web developer living in Melbourne, born in London with Polish heritage. I like to write and read about anything Design, Code and User Experiece (UX) related. ✌️
+                                </div>
+                            </div>
+                        </p>
+                        <img class="post-image my-8" src="{{ site.url }}{{ page.article_image }}" alt="{{ page.article_image_alt }}" />
+                    </header>
+                    <div class="post-content mb-10" itemprop="articleBody">
+                        {{ content }}
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-9">
+                <form id="signup-form" action="https://www.enformed.io/agxf1dmj" method="POST">
+                    <div class="row">
+                        <div class="col-12">
+                            <hr />
+                            <p class="lead mt-4 mt-md-9">
+                                Sign up now to get notified everytime we write a new article.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label class="fw-700" for="email">Email address</label>
+                                <input type="email" name="email" id="email" class="form-control" aria-describedby="emailHelp" required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <button type="submit" class="btn btn-success position-relative sign-up-button mb-3 mb-md-0">Sign up <i class="ml-2 fal fa-check"></i></button>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group form-check mb-4 mb-md-9">
+                                <input type="checkbox" name="privacypolicy" id="privacypolicy" class="form-check-input" checked disabled>
+                                <label class="form-check-label" for="privacypolicy"><small>I have read the <a target="_blank" href="/privacy-policy">Privacy policy</a>.</small></label>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                    <input type="hidden" name="*I have read the Privacy policy" value="yes">
+                    <input type="hidden" name="*Sign up to receive emails about new articles and updates." value="yes">
+                    <input type="hidden" name="*Sent from the" value="post - {{ page.title }}" />
+                    <input type="hidden" name="*honeypot" />
+                    <input type="hidden" name="*redirect" value="{{ site.url }}/success" />
+                    <input type="hidden" name="*reply" value="email" />
+                    <input type="hidden" name="*default_email" value="info@makeaweb.com.au" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div  class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-9 mt-7">
+                {% include disqus_comments.html %}
+            </div>
+        </div>
+    </div>
+</div>

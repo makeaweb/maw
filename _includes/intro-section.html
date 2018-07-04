@@ -1,0 +1,26 @@
+<section id="intro" class="pt-4 pb-4 border-bottom mb-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="display-3 mt-0">{{ page.title }}</h2>
+                <p class="lead mt-2 mb-2">{{ page.tagline }}</p>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-white pl-0 mb-0" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                            <a class="no-anchor-styles" href="/" itemscope="" itemtype="http://schema.org/Thing" itemprop="item">
+                                <span class="breadcrumb-home" itemprop="name">Home</span>
+                            </a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li class="active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                            <span itemscope="" itemtype="http://schema.org/Thing" itemprop="item">
+                                <span itemprop="name"><span class="ml-1 mr-1">/</span>{{ page.title }}</span>
+                            </span>
+                            <meta itemprop="position" content="2">
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>

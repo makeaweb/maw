@@ -1,0 +1,38 @@
+---
+layout: default
+title: Articles
+permalink: /articles/
+tagline: Helpful tips, fresh thinking and tutorials. 📖
+og_image: /assets/images/dest/og-images/articles.svg
+in_navigation: true
+---
+{% include intro-section.html %}
+<div id="articles" class="container">
+    <div class="row">
+        {% for post in site.posts %}
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape }}" class="card flex-fill mb-3 mb-md-6 rounded-0">
+                <img class="card-img-top my-6" src="{{ post.article_image | escape }}" alt="{{ post.title | escape }}">
+                <div class="card-body pt-0">
+                    <h3 class="h4 card-title text-monospace fw-400">{{ post.title | escape }}</g2>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                    {% if post.updated != null %}
+                        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="dateModified">
+                            Updated - {{ post.updated | date: date_format }}
+                        </time>
+                    {% endif %}
+                    {% if post.updated == null %}
+                        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                            Published - {{ post.date | date: date_format }}
+                        </time>
+                    {% endif %}
+                    </h6>
+                    <p class="card-text mb-10">{{ post.tagline | escape }}</p>
+                    <span class="btn btn-outline-light text-dark position-absolute">Read more <i class="fal fa-book-open ml-1"></i></span>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

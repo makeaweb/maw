@@ -1,0 +1,87 @@
+---
+layout: default
+title: Contact
+permalink: /contact
+tagline: Send us a message and we'll get back to you today. 💬
+og_image: /assets/images/dest/og-images/contact.svg
+in_navigation: true
+---
+{% include intro-section.html %}
+<div id="contact" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <form id="contact-form" action="https://www.enformed.io/agxf1dmj" method="POST">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label class="fw-700" for="name">What is your name?</label>
+                                <input type="text" name="name" id="name" class="form-control" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label class="fw-700" for="email">What is your email address?</label>
+                                <input type="email" name="email" id="email" class="form-control" aria-describedby="emailHelp" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label class="fw-700" for="message">How can we help you?</label>
+                                <textarea class="form-control" name="message" id="message" rows="6"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group form-check">
+                                <input type="checkbox" name="terms" id="terms" class="form-check-input" checked disabled>
+                                <label class="form-check-label" for="terms"><small>I have read and agree to the <a target="_blank" href="/terms-and-conditions">Terms and conditions</a> and <a target="_blank" href="/privacy-policy">Privacy policy</a>.</small></label>
+                                <br />
+                                <input type="checkbox" name="signup" id="signup" class="form-check-input" checked>
+                                <label class="form-check-label" for="signup"><small>Sign up to receive emails about new articles and updates.</small></label>
+                            </div>
+                            <button type="submit" class="btn btn-light btn-lg mt-4 text-dark">Send <i class="ml-2 fal fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="*I agree to the Terms and conditions and Privacy policy" value="yes">
+                    <input type="hidden" name="*Sent from the" value="Contact page" />
+                    <input type="hidden" name="*honeypot" />
+                    <input type="hidden" name="*redirect" value="{{ site.url }}/success" />
+                    <input type="hidden" name="*reply" value="email" />
+                    <input type="hidden" name="*default_email" value="info@makeaweb.com.au" />
+                </form>
+            </div>
+            <div class="col-12 col-lg-4 mt-10 mt-lg-0">
+                <div class="card contact-adam-card">
+                    <div class="card-body">
+                        <img class="contact-adam-img rounded-circle float-right" src="/assets/images/dest/authors/adam-kolinski-round.png" alt="Adam Kolinski">
+                        <p class="card-text">Use the form to send us an email, its the quickest and easiest way to get in touch. Otherwise you can use any of the contact methods listed below. 👍</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="https://www.messenger.com/t/makeawebmelbourne" title="Chat to us on Facebook messenger" target="_blank">
+                            <li class="list-group-item bg-facebook h5 text-white border-0 rounded-0">
+                                Facebook messenger<i class="float-right fab fa-facebook-messenger fa-lg text-white"></i>
+                            </li>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=61413598886" title="Chat to us on Whatsapp" target="_blank">
+                            <li class="list-group-item bg-whatsapp h5 text-white border-0 rounded-0">
+                                Whatsapp<i class="float-right fab fa-whatsapp fa-lg text-white"></i>
+                            </li>
+                        </a>
+                        <a href="https://www.instagram.com/makeaweb" target="_blank" title="Chat to us on Instagram">
+                            <li class="list-group-item bg-instagram h5 text-white border-0">
+                                Instagram<i class="float-right fab fa-instagram fa-lg text-white"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

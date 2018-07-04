@@ -1,0 +1,807 @@
+// Type smoothing for your website - https://gist.github.com/akolinski/19966c8f70a43ef45e7f06878a87a464
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: $zindex-fixed;
+    background: #FFF;
+    border-bottom: solid 1px $gray-300;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+
+    .maw-logo {
+        width: 70px;
+    }
+
+    // The position of the  MAKE A WEB text in the header
+    .maw-logo-text-position {
+        left: 85px;
+        top: 34px;
+        @include media-breakpoint-up(sm) {
+            left: 90px;
+            top: 29px;
+        }
+    }
+
+    .maw-navbar-position {
+        position: relative;
+        @include media-breakpoint-up(lg) {
+            position: absolute;
+        }
+        right: 0px;
+        margin-top: 4px;
+    }
+
+    // Navigation
+    #main-nav {
+        // The size of text for MAKE A WEB heading
+        .h3 {
+            font-size: 20px;
+            @include media-breakpoint-up(sm) {
+                font-size: 26px;
+            }
+        }
+
+        .navbar-nav .nav-item {
+            margin-left: 0.5em;
+        }
+
+        .navbar-nav .nav-item a {
+            text-decoration: none;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .nav-link:hover, .nav-link:focus {
+            color: $body-color;
+        }
+
+        @include media-breakpoint-up(lg) {
+            .navbar-nav .nav-item.active a {
+                border-bottom: 2px solid $light-brown;
+            }
+            .service-active {
+                border-bottom: 2px solid $light-brown;
+            }
+        }
+
+        // Styling the dropdown
+        .dropdown-menu {
+            border-radius: 0.25rem;
+            border-radius: 0px;
+            border-color: $gray-300;
+            box-shadow: none;
+            @include media-breakpoint-up(lg) {
+                margin-top: 22px;
+                border-top: none;
+                box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        // Position of the dropdown arrow
+        .dropdown-toggle::after {
+            margin-left: 0.555em;
+        }
+
+        // For some reason when click on the dropdown the anchor was white
+        .dropdown-item.active, .dropdown-item:active {
+            color: $body-color;
+        }
+    }
+}
+
+// Bring in bootstrap 3 navbar toggle icon bars so we can animate them
+.navbar-toggler {
+    color: $body-color;
+    border-color: $gray-300;
+    padding: 14px;
+
+    // Get the toggle button sit adjust slightly to the right
+    @include media-breakpoint-down(sm) {
+        right: -15px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $body-color;
+
+    +.icon-bar {
+        margin-top: 4px;
+    }
+}
+
+// Animate nav collapse icon - Pure css solution no jQuery - https://codepen.io/akolinski/pen/yagwNN
+.animated-collapse-icon {
+    $speed: 200ms;
+    $easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+    .navbar-toggler {
+        overflow: hidden;
+
+        .icon-bar {
+            transition: opacity, transform;
+            transition-duration: $speed;
+            transition-timing-function: $easing;
+        }
+
+        &:not(.collapsed) {
+            .icon-bar {
+                &:nth-child(1) {
+                    transform: translateY(6px) rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                    transform: translateX(-100%);
+                }
+                &:nth-child(3) {
+                    transform: translateY(-6px) rotate(-45deg);
+                }
+            }
+        }
+    }
+}
+
+// page content offset because of fixed #header
+
+.page-content {
+    margin-top: 86px;
+}
+
+// VW values for better responsive text sizing
+
+h1, .h1 {
+    @include vw(font-size, 36px, 40px);
+}
+
+h2, .h2 {
+    @include vw(font-size, 32px, 36px);
+}
+
+h3, .h3 {
+    @include vw(font-size, 24px, 28px);
+}
+
+h4, .h4 {
+    @include vw(font-size, 20px, 22px);
+}
+
+h5, .h5 {
+    @include vw(font-size, 16px, 18px);
+}
+
+h6, .h6 {
+    @include vw(font-size, 14px, 16px);
+}
+
+.display-1 {
+    @include vw(font-size, 56px, 86px);
+}
+
+.display-2 {
+    @include vw(font-size, 46px, 78px);
+}
+
+.display-3 {
+    @include vw(font-size, 36px, 62px);
+}
+
+.display-4 {
+    @include vw(font-size, 26px, 42px);
+}
+
+// Margin classes using VW
+
+.maw-jumbotron-margin {
+    @include vw(margin-top, 20px, 100px);
+    @include vw(margin-bottom, 20px, 100px);
+}
+
+// Homepage welcome section, improving button styles
+#welcome {
+    .btn-outline-light {
+        &:hover {
+            background-color: #e9ecef;
+            border-color: #e9ecef;
+        }
+    }
+}
+
+// Brand outline buttons with opacity hovers
+.btn-outline-light.border-orange {
+    &:hover {
+        background-color: rgba(239, 70, 49, 0.1) !important;
+    }
+}
+
+.btn-outline-light.border-blue {
+    &:hover {
+        background-color: rgba(18, 171, 227, 0.1) !important;
+    }
+}
+
+.btn-outline-light.border-green {
+    &:hover {
+        background-color: rgba(46, 179, 73, 0.1) !important;
+    }
+}
+
+.btn-outline-light.border-yellow {
+    &:hover {
+        background-color: rgba(255, 205, 48, 0.1) !important;
+    }
+}
+
+// Homepage services
+#homepage-services {
+    // Homepage service cards
+    .homepage-service-card:hover {
+        .btn-outline-light.border-orange {
+            background-color: rgba(239, 70, 49, 0.1) !important;
+        }
+        .btn-outline-light.border-blue {
+            background-color: rgba(18, 171, 227, 0.1) !important;
+        }
+        .btn-outline-light.border-green {
+            background-color: rgba(46, 179, 73, 0.1) !important;
+        }
+        .btn-outline-light.border-yellow {
+            background-color: rgba(255, 205, 48, 0.1) !important;
+        }
+    }
+}
+
+
+
+// Homepage reviews
+
+#reviews {
+    .stars {
+        color: $yellow;
+    }
+
+    .quote {
+        position: relative;
+        left: 4px;
+        color: $gray-600;
+    }
+
+    // Carousel arrow styles
+    .carousel-arrows {
+        left: 50px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .arrow-left, .arrow-right {
+            background: $gray-200;
+            color: $gray-600;
+            padding: 12px 16px;
+        }
+
+        .fa-chevron-right:before {
+            position: relative;
+            right: -1px;
+        }
+
+        .fa-chevron-left:before {
+            position: relative;
+            left: -1px;
+        }
+    }
+}
+
+// Articles page
+#articles {
+    a {
+        color: $body-color;
+        text-decoration: none;
+    }
+
+    .card {
+        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+        .card-img-top {
+            width: 50%;
+            height: 150px;
+            margin: 0px auto;
+        }
+
+        .card-title {
+            letter-spacing: 0.05rem;
+        }
+
+        .btn {
+            bottom: 15px;
+        }
+
+        &:hover {
+            transform: translate(0, -8px);
+            transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+            .btn {
+                background-color: $gray-200;
+                border-color: $gray-200;
+            }
+        }
+    }
+}
+
+// Global style for card footer to have white background
+.maw-card-footer {
+    background: white;
+    border-top: none;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#article {
+    .post-title {
+        letter-spacing: 0.1rem;
+    }
+
+    .post-image {
+        position: relative;
+        margin: 0px auto;
+        width: 50%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .author-image {
+        width: 30px;
+        top: -2px;
+    }
+
+    .post-content {
+        h1, .h1 {
+            @include vw(margin-top, 40px, 50px);
+            @include vw(margin-bottom, 40px, 50px);
+        }
+
+        h2, .h2 {
+            @include vw(margin-top, 30px, 40px);
+            @include vw(margin-bottom, 30px, 40px);
+        }
+
+        h3, .h3 {
+            @include vw(margin-top, 20px, 30px);
+            @include vw(margin-bottom, 20px, 30px);
+        }
+
+        h4, .h4 {
+            @include vw(margin-top, 15px, 20px);
+            @include vw(margin-bottom, 15px, 20px);
+        }
+
+        h5, .h5 {
+            @include vw(margin-top, 15px, 20px);
+            @include vw(margin-bottom, 15px, 20px);
+        }
+
+        h6, .h6 {
+            @include vw(margin-top, 15px, 20px);
+            @include vw(margin-bottom, 15px, 20px);
+        }
+    }
+}
+
+#signup-form{
+    .sign-up-button {
+        top: 0px;
+        @include media-breakpoint-up(md) {
+            top: 32px;
+        }
+    }
+}
+
+// Projects page
+
+#projects {
+    .card-columns {
+        column-count: 1;
+        @include media-breakpoint-up(md) {
+            column-count: 2;
+        }
+        @include media-breakpoint-up(xl) {
+            column-count: 3;
+        }
+
+        a {
+            color: $body-color;
+            text-decoration: none;
+        }
+
+        .border-orange {
+            box-shadow: 0 2px 12px rgba(239, 70, 49, 0.1) !important;
+        }
+
+        .border-blue {
+            box-shadow: 0 2px 12px rgba(18, 171, 227, 0.1) !important;
+        }
+
+        .border-green {
+            box-shadow: 0 2px 12px rgba(46, 179, 73, 0.1) !important;
+        }
+
+        .card {
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-hover {
+            transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+            &:hover {
+                transform: translate(0, -8px);
+                transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+                .card-footer a{
+                    background-color: $gray-200;
+                    border-color: $gray-200;
+                }
+            }
+        }
+
+        .maw-card-footer {
+            background: white;
+            border-top: none;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+    }
+}
+
+// contact
+
+#contact {
+    .contact-adam-img {
+        width: 80px;
+    }
+
+    .contact-adam-card {
+        a {
+            color: #FFF;
+            text-decoration: none;
+        }
+    }
+}
+
+// Footer
+
+footer {
+    #footer-sitemap {
+        .list-group .list-group-item a {
+            color: $gray-400;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    #contact-information a {
+        color: $gray-400;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #footer-other-infomation {
+        .social-icons {
+            @include media-breakpoint-up(md) {
+                position: absolute;
+                right: 20px;
+            }
+        }
+
+        a {
+            color: $gray-400;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .motto {
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+}
+
+// Additional
+
+.bg-whatsapp {
+    background: #00d26a;
+}
+
+.bg-facebook {
+    background: #0084ff;
+}
+
+.bg-instagram {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+// Pricing tables
+
+.pricing {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 3em;
+
+    &-item{
+        position: relative;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: stretch;
+        align-items: stretch;
+        text-align: center;
+        -webkit-flex: 0 1 330px;
+        flex: 0 1 330px;
+    }
+
+    &-action {
+        color: inherit;
+        border: none;
+        background: none;
+        &:focus {
+           outline: none;
+        }
+    }
+}
+
+.pricing-feature-list {
+    text-align: left;
+}
+
+.pricing-palden .pricing-item {
+    cursor: default;
+    color: $gray-700;
+    background: #FFF;
+    box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+    border-radius: 20px 20px 10px 10px;
+    margin: 0em;
+    margin-bottom: 1.6em;
+    @include media-breakpoint-up(sm) {
+        margin: 1.5em;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .pricing-palden .pricing__item--featured {
+        margin: 0 !important;
+        z-index: 10;
+        box-shadow: 0 0 20px rgba(46, 59, 125, 0.23);
+    }
+}
+
+.pricing-palden {
+    .pricing-deco {
+        border-radius: 10px 10px 0 0;
+        background: $gray-200;
+        padding: 3rem 1rem;
+        position: relative;
+        border-bottom: 2px solid $light-brown;
+    }
+
+    .pricing-title {
+        font-size: 1.1em;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $body-color;
+        font-weight: 700;
+    }
+
+    .icon {
+        font-size: 2.5em;
+    }
+
+    .pricing-price {
+        font-size: 4em;
+        font-weight: 700;
+        padding: 0;
+        color: $body-color;
+        margin: 0 0 0.25em 0;
+        line-height: 0.75;
+    }
+
+    .pricing-currency {
+        font-size: 0.5em;
+        vertical-align: top;
+    }
+
+    .pricing-currency-decimal {
+        font-size: 0.5em;
+    }
+
+    .pricing-period {
+        font-size: 0.25em;
+    }
+
+    .pricing__sentence {
+        font-weight: bold;
+        margin: 0 0 1em 0;
+        padding: 0 0 0.5em;
+    }
+
+    .pricing-feature-list {
+        margin: 0;
+        padding: 0.25em 0 2.5em;
+        list-style: none;
+        text-align: center;
+    }
+
+    .pricing-feature {
+        padding: 1em;
+        @include media-breakpoint-up(lg) {
+            padding: 1em 2.5em;
+        }
+    }
+
+    .pricing-action {
+        font-weight: 600;
+        margin: auto 3em 2em 3em;
+        padding: 1em 2em;
+        color: $body-color;
+        border-radius: 30px;
+        background: $gray-100;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+        text-decoration: none;
+        border: solid 1px $gray-100;
+        &:hover, &:focus{
+          background-color: darken($gray-100, 5%);
+        }
+    }
+
+}
+
+.pricing-palden .pricing-item--featured .pricing-deco {
+	padding: 5em 0 8.885em 0;
+}
+
+// Special theme overrides for the pricing tables
+
+#website-development {
+    .pricing-palden {
+        .pricing-action {
+            border-color: $orange;
+        }
+        .pricing-deco {
+            border-bottom: 2px solid $orange;
+        }
+    }
+}
+
+#ux-design {
+    .pricing-palden {
+        .pricing-action {
+            border-color: $blue;
+        }
+        .pricing-deco {
+            border-bottom: 2px solid $blue;
+        }
+    }
+}
+
+#digital-marketing {
+    .pricing-palden {
+        .pricing-action {
+            border-color: $green;
+        }
+        .pricing-deco {
+            border-bottom: 2px solid $green;
+        }
+    }
+}
+
+#online-support {
+    .pricing-palden {
+        .pricing-action {
+            border-color: $yellow;
+        }
+        .pricing-deco {
+            border-bottom: 2px solid $yellow;
+        }
+    }
+}
+
+// Toggle feature for monthly and fixed cost
+
+#toggle-container {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+
+    .toggle-inner-container {
+        width: 100% !important;
+        left: 0px;
+        font-size: 1rem;
+        @include media-breakpoint-up(md) {
+            font-size: 1.1rem;
+            width: 50% !important;
+            left: 26%;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 40% !important;
+            left: 30%;
+        }
+        position: absolute;
+
+        top: 0;
+        width: inherit;
+        height: inherit;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.toggle-inner-container:first-child {
+    background: $gray-200;
+    color: $body-color;
+}
+
+.toggle-inner-container:nth-child(2) {
+    background: $orange;
+    color: #FFF;
+    clip-path: inset(0 50% 0 0);
+    transition: .3s cubic-bezier(0,0,0,1);
+}
+
+.toggle {
+    width: 50%;
+    position: absolute;
+    height: inherit;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.toggle p {
+    margin: auto;
+}
+
+.toggle:nth-child(1) {
+    right: 0;
+}
+
+.fixed-cost-promo {
+    display: none;
+}
