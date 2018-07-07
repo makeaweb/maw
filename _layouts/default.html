@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="2OqIRHrvxL6UM6pKelEKlk2Q6tuwmiL7B-ESIdMZlVY" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="canonical" href="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %} " />
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/assets/images/favicon/apple-icon-57x57.png">
@@ -165,8 +164,8 @@
         </div>
     </div>
 </footer>
-{% if page.title == null %}
-<div class="modal" id="accept-terms-and-conditions-and-privacy-policy" tabindex="-1" role="dialog" aria-labelledby="accept-terms-and-conditions-and-privacy-policy" aria-hidden="true">
+{% if page.permalink == null %}
+<div class="modal" id="accept-terms-and-privacy" tabindex="-1" role="dialog" aria-labelledby="accept-terms-and-privacy" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-body">
@@ -218,25 +217,25 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-LDuQaX4rOgqi4rbWCyWj3XVBlgDzuxGy/E6vWN6U7c25/eSJIwyKhy9WgZCHQWXz" crossorigin="anonymous">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43781665-1"></script>
 <script id="dsq-count-scr" src="//makeaweb.disqus.com/count.js" async></script>
-{% if page.title == null %}
+{% if page.permalink == null %}
 <script>
 $(document).ready(function(){
     // Open modal based on anchor in URL - https://gist.github.com/MrDys/3512455
-    if(window.location.href.indexOf('#accept-terms-and-conditions-and-privacy-policy') != -1) {
-        $('#accept-terms-and-conditions-and-privacy-policy').modal('show');
+    if(window.location.href.indexOf('#accept-terms-and-privacy') != -1) {
+        $('#accept-terms-and-privacy').modal('show');
     }
     // Focus input on shown modal
-    $('#accept-terms-and-conditions-and-privacy-policy').on('shown.bs.modal', function () {
+    $('#accept-terms-and-privacy').on('shown.bs.modal', function () {
         $('#name').focus();
     })
     // Dismiss modal on submit
-    $('#accept-terms-and-conditions-and-privacy-policy').submit(function() {
-        $('#accept-terms-and-conditions-and-privacy-policy').modal('hide');
+    $('#accept-terms-and-privacy').submit(function() {
+        $('#accept-terms-and-privacy').modal('hide');
     });
 });
 </script>
 {% endif %}
-{% if page.title == "website-development" %}
+{% if page.permalink == "/services/website-development" %}
 <script>
 $(document).ready(function(){
     // Pricing table toggle function for website development page
