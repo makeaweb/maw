@@ -10804,7 +10804,7 @@ h6, .h6 {
   @media (min-width: 1200px) {
     #projects .card-columns {
       column-count: 3; } }
-  #projects .card-columns a {
+  #projects .card-columns .btn {
     color: #212529;
     text-decoration: none; }
   #projects .card-columns .border-orange {
@@ -10820,7 +10820,7 @@ h6, .h6 {
     #projects .card-columns .card-hover:hover {
       transform: translate(0, -8px);
       transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
-      #projects .card-columns .card-hover:hover .card-footer a {
+      #projects .card-columns .card-hover:hover .card-footer .btn {
         background-color: #e9ecef;
         border-color: #e9ecef; }
   #projects .card-columns .maw-card-footer {

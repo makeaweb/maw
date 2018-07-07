@@ -426,7 +426,7 @@ h6, .h6 {
             column-count: 3;
         }
 
-        a {
+        .btn {
             color: $body-color;
             text-decoration: none;
         }
@@ -454,7 +454,7 @@ h6, .h6 {
                 transform: translate(0, -8px);
                 transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
-                .card-footer a{
+                .card-footer .btn{
                     background-color: $gray-200;
                     border-color: $gray-200;
                 }
