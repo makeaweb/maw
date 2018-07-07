@@ -18,14 +18,10 @@ in_navigation: true
                     <h6 class="card-subtitle mb-2 text-muted">
                     {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                     {% if post.updated != null %}
-                        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="dateModified">
-                            Updated - {{ post.updated | date: date_format }}
-                        </time>
+                        Updated - {{ post.updated | date: date_format }}
                     {% endif %}
                     {% if post.updated == null %}
-                        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                            Published - {{ post.date | date: date_format }}
-                        </time>
+                        Published - {{ post.date | date: date_format }}
                     {% endif %}
                     </h6>
                     <p class="card-text mb-10">{{ post.tagline | escape }}</p>
