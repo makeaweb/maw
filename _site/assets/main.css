@@ -10423,8 +10423,11 @@ body {
     #header {
       height: 87px; } }
   #header .maw-logo {
-    width: 70px;
-    top: 0px; }
+    width: 70px; }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      #header .maw-logo {
+        /* IE10+ CSS styles go here */
+        margin-top: -40px; } }
   #header .maw-logo-text-position {
     left: 85px;
     top: 34px; }
