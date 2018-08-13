@@ -10431,11 +10431,16 @@ body {
         top: -44px; } }
   #header .maw-logo-text-position {
     left: 85px;
-    top: 34px; }
+    top: 30px; }
     @media (min-width: 576px) {
       #header .maw-logo-text-position {
         left: 90px;
-        top: 29px; } }
+        top: 25px; } }
+  @media all and (min-width: 576px) and (-ms-high-contrast: none), (min-width: 576px) and (-ms-high-contrast: active) {
+    #header .maw-logo-text-position {
+      /* IE10+ CSS styles go here */
+      top: 68px; } }
+
   #header .maw-navbar-position {
     position: relative;
     top: 12px;

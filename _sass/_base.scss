@@ -29,10 +29,14 @@ body {
     // The position of the  MAKE A WEB text in the header
     .maw-logo-text-position {
         left: 85px;
-        top: 34px;
+        top: 30px;
         @include media-breakpoint-up(sm) {
             left: 90px;
-            top: 29px;
+            top: 25px;
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+             /* IE10+ CSS styles go here */
+             top: 68px;
+            }
         }
     }
 
@@ -57,7 +61,7 @@ body {
         }
 
         .navbar-nav .nav-item {
-            margin-left: 0.5em;
+            margin-left: 0.5em; 
         }
 
         .navbar-nav .nav-item a {
