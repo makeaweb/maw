@@ -10423,7 +10423,8 @@ body {
     #header {
       height: 87px; } }
   #header .maw-logo {
-    width: 70px; }
+    width: 70px;
+    top: 0px; }
   #header .maw-logo-text-position {
     left: 85px;
     top: 34px; }
@@ -10433,6 +10434,7 @@ body {
         top: 29px; } }
   #header .maw-navbar-position {
     position: relative;
+    top: 12px;
     right: 0px;
     margin-top: 4px; }
     @media (min-width: 992px) {
