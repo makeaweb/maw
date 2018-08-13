@@ -21,7 +21,7 @@ body {
         width: 70px;
         @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
          /* IE10+ CSS styles go here */
-         margin-top: -40px;
+         margin-top: -44px;
         }
     }
 
@@ -797,6 +797,11 @@ footer {
     height: inherit;
     display: flex;
     box-sizing: border-box;
+    // Fix for IE position of text in toggle buttons on services page
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+        top: 16px;
+    }
 }
 
 .toggle p {
