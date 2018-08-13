@@ -71,7 +71,7 @@
   border-width: 2px !important; }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .d-flex {
+  .d-ie-block {
     /* IE10+ CSS styles go here */
     display: block !important; } }
 
