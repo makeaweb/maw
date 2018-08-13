@@ -126,14 +126,3 @@
 .border-2px {
     border-width: 2px !important;
 }
-
-// Internet explorer 10+ fixes
-// https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
-
-// Fix for using d-flex to make equal height cards, won't work in IE
-.d-ie-block {
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-     /* IE10+ CSS styles go here */
-     display: block !important;
-    }
-} 

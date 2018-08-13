@@ -70,11 +70,6 @@
 .border-2px {
   border-width: 2px !important; }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .d-ie-block {
-    /* IE10+ CSS styles go here */
-    display: block !important; } }
-
 /*!
  * Bootstrap v4.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -11051,3 +11046,8 @@ footer .motto {
 
 .fixed-cost-promo {
   display: none; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .d-ie-block {
+    /* IE10+ CSS styles go here */
+    display: block !important; } }
