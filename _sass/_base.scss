@@ -91,7 +91,7 @@ body {
             border-color: $gray-300;
             box-shadow: none;
             @include media-breakpoint-up(lg) {
-                margin-top: 22px;
+                margin-top: 23px;
                 border-top: none;
                 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
             }
