@@ -10676,7 +10676,7 @@ h6, .h6 {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
   #articles .card .card-img-top {
-    width: 50%;
+    width: 40%;
     height: 150px;
     margin: 0px auto; }
   #articles .card .card-title {
