@@ -173,49 +173,6 @@ body {
 .page-content {
     margin-top: 86px;
 }
-
-// VW values for better responsive text sizing
-
-h1, .h1 {
-    @include vw(font-size, 36px, 40px);
-}
-
-h2, .h2 {
-    @include vw(font-size, 32px, 36px);
-}
-
-h3, .h3 {
-    @include vw(font-size, 24px, 28px);
-}
-
-h4, .h4 {
-    @include vw(font-size, 20px, 22px);
-}
-
-h5, .h5 {
-    @include vw(font-size, 16px, 18px);
-}
-
-h6, .h6 {
-    @include vw(font-size, 14px, 16px);
-}
-
-.display-1 {
-    @include vw(font-size, 56px, 86px);
-}
-
-.display-2 {
-    @include vw(font-size, 46px, 78px);
-}
-
-.display-3 {
-    @include vw(font-size, 36px, 62px);
-}
-
-.display-4 {
-    @include vw(font-size, 26px, 42px);
-}
-
 // Margin classes using VW
 
 .maw-jumbotron-margin {
