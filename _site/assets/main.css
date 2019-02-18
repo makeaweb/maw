@@ -12256,7 +12256,7 @@ body {
   width: 100%;
   z-index: 1030;
   background: #FFF;
-  border-bottom: solid 1px #dee2e6;
+  border-bottom: none;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.06); }
   @media (min-width: 992px) {
     #header {
