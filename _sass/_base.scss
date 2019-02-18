@@ -1,5 +1,4 @@
 // Type smoothing for your website - https://gist.github.com/akolinski/19966c8f70a43ef45e7f06878a87a464
-
 body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -15,7 +14,8 @@ body {
     width: 100%;
     z-index: $zindex-fixed;
     background: #FFF;
-    border-bottom: solid 1px $gray-300;
+    border-bottom: none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.06);
 
     .maw-logo {
         width: 70px;
@@ -169,55 +169,11 @@ body {
 }
 
 // page content offset because of fixed #header
-
 .page-content {
     margin-top: 86px;
 }
 
-// VW values for better responsive text sizing
-
-h1, .h1 {
-    @include vw(font-size, 36px, 40px);
-}
-
-h2, .h2 {
-    @include vw(font-size, 32px, 36px);
-}
-
-h3, .h3 {
-    @include vw(font-size, 24px, 28px);
-}
-
-h4, .h4 {
-    @include vw(font-size, 20px, 22px);
-}
-
-h5, .h5 {
-    @include vw(font-size, 16px, 18px);
-}
-
-h6, .h6 {
-    @include vw(font-size, 14px, 16px);
-}
-
-.display-1 {
-    @include vw(font-size, 56px, 86px);
-}
-
-.display-2 {
-    @include vw(font-size, 46px, 78px);
-}
-
-.display-3 {
-    @include vw(font-size, 36px, 62px);
-}
-
-.display-4 {
-    @include vw(font-size, 26px, 42px);
-}
-
 // Margin classes using VW
-
 .maw-jumbotron-margin {
     @include vw(margin-top, 20px, 100px);
     @include vw(margin-bottom, 20px, 100px);
@@ -277,10 +233,7 @@ h6, .h6 {
     }
 }
 
-
-
 // Homepage reviews
-
 #reviews {
     .stars {
         color: $yellow;
@@ -290,29 +243,6 @@ h6, .h6 {
         position: relative;
         left: 4px;
         color: $gray-600;
-    }
-
-    // Carousel arrow styles
-    .carousel-arrows {
-        a {
-            text-decoration: none;
-        }
-
-        .arrow-left, .arrow-right {
-            background: $gray-200;
-            color: $gray-600;
-            padding: 12px 16px;
-        }
-
-        .fa-chevron-right:before {
-            position: relative;
-            right: -1px;
-        }
-
-        .fa-chevron-left:before {
-            position: relative;
-            left: -1px;
-        }
     }
 }
 
@@ -425,7 +355,6 @@ h6, .h6 {
 }
 
 // Projects page
-
 #projects {
     .card-columns {
         column-count: 1;
@@ -477,21 +406,6 @@ h6, .h6 {
             position: absolute;
             bottom: 0px;
             width: 100%;
-        }
-    }
-}
-
-// contact
-
-#contact {
-    .contact-adam-img {
-        width: 80px;
-    }
-
-    .contact-adam-card {
-        a {
-            color: #FFF;
-            text-decoration: none;
         }
     }
 }
@@ -696,7 +610,6 @@ footer {
           background-color: darken($gray-100, 5%);
         }
     }
-
 }
 
 .pricing-palden .pricing-item--featured .pricing-deco {
