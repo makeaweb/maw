@@ -222,9 +222,9 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-t3MQUMU0g3tY/0O/50ja6YVaEFYwPpOiPbrHk9p5DmYtkHJU2U1/ujNhYruOJwcj" crossorigin="anonymous">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-LDuQaX4rOgqi4rbWCyWj3XVBlgDzuxGy/E6vWN6U7c25/eSJIwyKhy9WgZCHQWXz" crossorigin="anonymous">
 <script id="dsq-count-scr" src="//makeaweb.disqus.com/count.js" async></script>
-{% if page.permalink == null %}
 <script>
 $(document).ready(function(){
+    {% if page.permalink == null %}
     // Open modal based on anchor in URL - https://gist.github.com/MrDys/3512455
     if(window.location.href.indexOf('#accept-terms-and-privacy') != -1) {
         $('#accept-terms-and-privacy').modal('show');
@@ -237,28 +237,24 @@ $(document).ready(function(){
     $('#accept-terms-and-privacy').submit(function() {
         $('#accept-terms-and-privacy').modal('hide');
     });
-});
-</script>
-{% endif %}
-{% if page.permalink == "/services/website-development" %}
-<script>
-$(document).ready(function(){
+    {% endif %}
+    {% if page.permalink == "/services/website-development" %}
     // Pricing table toggle function for website development page
     var toggleNumber;
     $( "#toggle-container" ).click(function() {
-    	toggleNumber = !toggleNumber;
-    	if (toggleNumber) {
+        toggleNumber = !toggleNumber;
+        if (toggleNumber) {
             $("#toggle-container-second").css( "clip-path", "inset(0 0 0 50%)" );
             $(".monthly-promo").css( "display", "none" );
             $(".fixed-cost-promo").css( "display", "block" );
-    	} else {
+        } else {
             $("#toggle-container-second").css( "clip-path", "inset(0 50% 0 0)" );
             $(".monthly-promo").css( "display", "block" );
             $(".fixed-cost-promo").css( "display", "none" );
-    	}
+        }
     });
+    {% endif %}
 });
 </script>
-{% endif %}
 </body>
 </html>
