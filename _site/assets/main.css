@@ -12410,7 +12410,7 @@ body {
   color: #212529;
   text-decoration: none; }
 #articles .card {
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
   #articles .card .card-img-top {
     width: 40%;
@@ -12421,7 +12421,7 @@ body {
   #articles .card .btn {
     bottom: 15px; }
   #articles .card:hover {
-    transform: translate(0, -8px);
+    transform: translate(0, 2px);
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
     #articles .card:hover .btn {
       background-color: #e9ecef;
@@ -12566,7 +12566,7 @@ body {
   #projects .card-columns .card-hover {
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
     #projects .card-columns .card-hover:hover {
-      transform: translate(0, -8px);
+      transform: translate(0, 2px);
       transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
       #projects .card-columns .card-hover:hover .card-footer .btn {
         background-color: #e9ecef;
