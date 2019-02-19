@@ -12359,17 +12359,17 @@ body {
   margin-top: 86px; }
 
 .maw-jumbotron-margin {
-  margin-top: 10.0908173562vw;
-  margin-bottom: 10.0908173562vw; }
+  margin-top: 7.0635721493vw;
+  margin-bottom: 7.0635721493vw; }
   @media (min-width: 991px) {
     .maw-jumbotron-margin {
-      margin-top: 100px; } }
+      margin-top: 70px; } }
   @media (max-width: 576px) {
     .maw-jumbotron-margin {
       margin-top: 20px; } }
   @media (min-width: 991px) {
     .maw-jumbotron-margin {
-      margin-bottom: 100px; } }
+      margin-bottom: 70px; } }
   @media (max-width: 576px) {
     .maw-jumbotron-margin {
       margin-bottom: 20px; } }
@@ -12800,3 +12800,7 @@ footer .motto {
   .d-ie-block {
     /* IE10+ CSS styles go here */
     display: block !important; } }
+
+.leave-a-review {
+  border-top: solid 1px rgba(0, 0, 0, 0.06);
+  padding-top: 30px; }
