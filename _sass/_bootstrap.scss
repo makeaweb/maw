@@ -1,14 +1,14 @@
 /*!
- * Bootstrap v4.0 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 @import "./bootstrap-4/scss/functions";
 @import "./bootstrap-4/scss/variables";
 @import "./bootstrap-4/scss/mixins";
-// @import "./bootstrap-4/scss/root";
+//@import "./bootstrap-4/scss/root";
 @import "./bootstrap-4/scss/reboot";
 @import "./bootstrap-4/scss/type";
 @import "./bootstrap-4/scss/images";
@@ -27,16 +27,18 @@
 @import "./bootstrap-4/scss/card";
 @import "./bootstrap-4/scss/breadcrumb";
 @import "./bootstrap-4/scss/pagination";
-@import "./bootstrap-4/scss/badge";
+// @import "./bootstrap-4/scss/badge";
 @import "./bootstrap-4/scss/jumbotron";
 @import "./bootstrap-4/scss/alert";
-@import "./bootstrap-4/scss/progress";
+// @import "./bootstrap-4/scss/progress";
 @import "./bootstrap-4/scss/media";
 @import "./bootstrap-4/scss/list-group";
 @import "./bootstrap-4/scss/close";
+@import "./bootstrap-4/scss/toasts";
 @import "./bootstrap-4/scss/modal";
 @import "./bootstrap-4/scss/tooltip";
-@import "./bootstrap-4/scss/popover";
-@import "./bootstrap-4/scss/carousel";
+//@import "./bootstrap-4/scss/popover";
+// @import "./bootstrap-4/scss/carousel";
+//@import "./bootstrap-4/scss/spinners";
 @import "./bootstrap-4/scss/utilities";
 @import "./bootstrap-4/scss/print";

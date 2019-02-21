@@ -51,32 +51,12 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://makeaweb.com.au/articles/bootstrap-3-the-sass-way</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://makeaweb.com.au/articles/web-design-podcasts-to-listen-to</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://makeaweb.com.au/articles/bootstrap-3-pages-to-save</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://makeaweb.com.au/articles/best-website-design-blogs-to-follow</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://makeaweb.com.au/articles/bootstrap-3-media-queries</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://makeaweb.com.au/articles/website-launch-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://makeaweb.com.au/articles/what-is-seo</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>

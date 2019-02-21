@@ -1,5 +1,4 @@
 // Type smoothing for your website - https://gist.github.com/akolinski/19966c8f70a43ef45e7f06878a87a464
-
 body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -15,7 +14,8 @@ body {
     width: 100%;
     z-index: $zindex-fixed;
     background: #FFF;
-    border-bottom: solid 1px $gray-300;
+    border-bottom: none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.06);
 
     .maw-logo {
         width: 70px;
@@ -169,58 +169,14 @@ body {
 }
 
 // page content offset because of fixed #header
-
 .page-content {
     margin-top: 86px;
 }
 
-// VW values for better responsive text sizing
-
-h1, .h1 {
-    @include vw(font-size, 36px, 40px);
-}
-
-h2, .h2 {
-    @include vw(font-size, 32px, 36px);
-}
-
-h3, .h3 {
-    @include vw(font-size, 24px, 28px);
-}
-
-h4, .h4 {
-    @include vw(font-size, 20px, 22px);
-}
-
-h5, .h5 {
-    @include vw(font-size, 16px, 18px);
-}
-
-h6, .h6 {
-    @include vw(font-size, 14px, 16px);
-}
-
-.display-1 {
-    @include vw(font-size, 56px, 86px);
-}
-
-.display-2 {
-    @include vw(font-size, 46px, 78px);
-}
-
-.display-3 {
-    @include vw(font-size, 36px, 62px);
-}
-
-.display-4 {
-    @include vw(font-size, 26px, 42px);
-}
-
 // Margin classes using VW
-
 .maw-jumbotron-margin {
-    @include vw(margin-top, 20px, 100px);
-    @include vw(margin-bottom, 20px, 100px);
+    @include vw(margin-top, 20px, 70px);
+    @include vw(margin-bottom, 20px, 70px);
 }
 
 // Homepage welcome section, improving button styles
@@ -277,10 +233,7 @@ h6, .h6 {
     }
 }
 
-
-
 // Homepage reviews
-
 #reviews {
     .stars {
         color: $yellow;
@@ -290,29 +243,6 @@ h6, .h6 {
         position: relative;
         left: 4px;
         color: $gray-600;
-    }
-
-    // Carousel arrow styles
-    .carousel-arrows {
-        a {
-            text-decoration: none;
-        }
-
-        .arrow-left, .arrow-right {
-            background: $gray-200;
-            color: $gray-600;
-            padding: 12px 16px;
-        }
-
-        .fa-chevron-right:before {
-            position: relative;
-            right: -1px;
-        }
-
-        .fa-chevron-left:before {
-            position: relative;
-            left: -1px;
-        }
     }
 }
 
@@ -324,7 +254,7 @@ h6, .h6 {
     }
 
     .card {
-        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
         .card-img-top {
@@ -342,7 +272,7 @@ h6, .h6 {
         }
 
         &:hover {
-            transform: translate(0, -8px);
+            transform: translate(0, 2px);
             transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
             .btn {
@@ -425,7 +355,6 @@ h6, .h6 {
 }
 
 // Projects page
-
 #projects {
     .card-columns {
         column-count: 1;
@@ -461,7 +390,7 @@ h6, .h6 {
             transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
             &:hover {
-                transform: translate(0, -8px);
+                transform: translate(0, 2px);
                 transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
                 .card-footer .btn{
@@ -477,21 +406,6 @@ h6, .h6 {
             position: absolute;
             bottom: 0px;
             width: 100%;
-        }
-    }
-}
-
-// contact
-
-#contact {
-    .contact-adam-img {
-        width: 80px;
-    }
-
-    .contact-adam-card {
-        a {
-            color: #FFF;
-            text-decoration: none;
         }
     }
 }
@@ -600,9 +514,9 @@ footer {
     cursor: default;
     color: $gray-700;
     background: #FFF;
-    box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+    box-shadow: 0 0 10px rgba(0,0,0,0.06);
     border-radius: 20px 20px 10px 10px;
-    margin: 0em;
+    margin: 0;
     margin-bottom: 1.6em;
     @include media-breakpoint-up(sm) {
         margin: 1.5em;
@@ -633,6 +547,10 @@ footer {
         letter-spacing: 1px;
         color: $body-color;
         font-weight: 700;
+    }
+
+    .pricing-desc {
+        font-weight: 600;
     }
 
     .icon {
@@ -696,7 +614,6 @@ footer {
           background-color: darken($gray-100, 5%);
         }
     }
-
 }
 
 .pricing-palden .pricing-item--featured .pricing-deco {
@@ -704,13 +621,12 @@ footer {
 }
 
 // Special theme overrides for the pricing tables
-
 #website-development {
     .pricing-palden {
         .pricing-action {
             border-color: $orange;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $orange;
         }
     }
@@ -721,7 +637,7 @@ footer {
         .pricing-action {
             border-color: $blue;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $blue;
         }
     }
@@ -732,7 +648,7 @@ footer {
         .pricing-action {
             border-color: $green;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $green;
         }
     }
@@ -743,14 +659,13 @@ footer {
         .pricing-action {
             border-color: $yellow;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $yellow;
         }
     }
 }
 
 // Toggle feature for monthly and fixed cost
-
 #toggle-container {
     width: 100%;
     height: 60px;
@@ -823,11 +738,15 @@ footer {
 
 // Internet explorer 10+ fixes
 // https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
-
 // Fix for using d-flex to make equal height cards, won't work in IE
 .d-ie-block {
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
      /* IE10+ CSS styles go here */
      display: block !important;
     }
+}
+
+.leave-a-review {
+    border-top: solid 1px rgba(0,0,0,0.06);
+    padding-top: 30px;
 }
