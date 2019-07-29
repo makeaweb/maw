@@ -254,7 +254,7 @@ body {
     }
 
     .card {
-        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
         .card-img-top {
@@ -272,7 +272,7 @@ body {
         }
 
         &:hover {
-            transform: translate(0, -8px);
+            transform: translate(0, 2px);
             transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
             .btn {
@@ -390,7 +390,7 @@ body {
             transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
             &:hover {
-                transform: translate(0, -8px);
+                transform: translate(0, 2px);
                 transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 
                 .card-footer .btn{
@@ -514,9 +514,9 @@ footer {
     cursor: default;
     color: $gray-700;
     background: #FFF;
-    box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+    box-shadow: 0 0 10px rgba(0,0,0,0.06);
     border-radius: 20px 20px 10px 10px;
-    margin: 0em;
+    margin: 0;
     margin-bottom: 1.6em;
     @include media-breakpoint-up(sm) {
         margin: 1.5em;
@@ -547,6 +547,10 @@ footer {
         letter-spacing: 1px;
         color: $body-color;
         font-weight: 700;
+    }
+
+    .pricing-desc {
+        font-weight: 600;
     }
 
     .icon {
@@ -617,13 +621,12 @@ footer {
 }
 
 // Special theme overrides for the pricing tables
-
 #website-development {
     .pricing-palden {
         .pricing-action {
             border-color: $orange;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $orange;
         }
     }
@@ -634,7 +637,7 @@ footer {
         .pricing-action {
             border-color: $blue;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $blue;
         }
     }
@@ -645,7 +648,7 @@ footer {
         .pricing-action {
             border-color: $green;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $green;
         }
     }
@@ -656,14 +659,13 @@ footer {
         .pricing-action {
             border-color: $yellow;
         }
-        .pricing-deco {
+        .pricing-deco, .pricing-desc {
             border-bottom: 2px solid $yellow;
         }
     }
 }
 
 // Toggle feature for monthly and fixed cost
-
 #toggle-container {
     width: 100%;
     height: 60px;
@@ -736,7 +738,6 @@ footer {
 
 // Internet explorer 10+ fixes
 // https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
-
 // Fix for using d-flex to make equal height cards, won't work in IE
 .d-ie-block {
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

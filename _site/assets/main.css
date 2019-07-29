@@ -12410,7 +12410,7 @@ body {
   color: #212529;
   text-decoration: none; }
 #articles .card {
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
   #articles .card .card-img-top {
     width: 40%;
@@ -12421,7 +12421,7 @@ body {
   #articles .card .btn {
     bottom: 15px; }
   #articles .card:hover {
-    transform: translate(0, -8px);
+    transform: translate(0, 2px);
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
     #articles .card:hover .btn {
       background-color: #e9ecef;
@@ -12566,7 +12566,7 @@ body {
   #projects .card-columns .card-hover {
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
     #projects .card-columns .card-hover:hover {
-      transform: translate(0, -8px);
+      transform: translate(0, 2px);
       transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
       #projects .card-columns .card-hover:hover .card-footer .btn {
         background-color: #e9ecef;
@@ -12644,9 +12644,9 @@ footer .motto {
   cursor: default;
   color: #495057;
   background: #FFF;
-  box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
   border-radius: 20px 20px 10px 10px;
-  margin: 0em;
+  margin: 0;
   margin-bottom: 1.6em; }
   @media (min-width: 576px) {
     .pricing-palden .pricing-item {
@@ -12670,6 +12670,8 @@ footer .motto {
   letter-spacing: 1px;
   color: #212529;
   font-weight: 700; }
+.pricing-palden .pricing-desc {
+  font-weight: 600; }
 .pricing-palden .icon {
   font-size: 2.5em; }
 .pricing-palden .pricing-price {
@@ -12719,22 +12721,22 @@ footer .motto {
 
 #website-development .pricing-palden .pricing-action {
   border-color: #EF4631; }
-#website-development .pricing-palden .pricing-deco {
+#website-development .pricing-palden .pricing-deco, #website-development .pricing-palden .pricing-desc {
   border-bottom: 2px solid #EF4631; }
 
 #ux-design .pricing-palden .pricing-action {
   border-color: #12ABE3; }
-#ux-design .pricing-palden .pricing-deco {
+#ux-design .pricing-palden .pricing-deco, #ux-design .pricing-palden .pricing-desc {
   border-bottom: 2px solid #12ABE3; }
 
 #digital-marketing .pricing-palden .pricing-action {
   border-color: #2EB349; }
-#digital-marketing .pricing-palden .pricing-deco {
+#digital-marketing .pricing-palden .pricing-deco, #digital-marketing .pricing-palden .pricing-desc {
   border-bottom: 2px solid #2EB349; }
 
 #online-support .pricing-palden .pricing-action {
   border-color: #ffCD30; }
-#online-support .pricing-palden .pricing-deco {
+#online-support .pricing-palden .pricing-deco, #online-support .pricing-palden .pricing-desc {
   border-bottom: 2px solid #ffCD30; }
 
 #toggle-container {

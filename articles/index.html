@@ -11,7 +11,7 @@ in_navigation: true
     <div class="row">
         {% for post in site.posts %}
         <div class="col-12 col-md-6 col-lg-4 d-flex d-ie-block">
-            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape }}" class="card flex-fill mb-3 mb-md-6 rounded-0">
+            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape }}" class="card flex-fill mb-3 mb-md-6 rounded-0 no-anchor-styles">
                 <img class="card-img-top my-6" src="{{ post.article_image | escape }}" alt="{{ post.title | escape }}">
                 <div class="card-body pt-0">
                     <h3 class="h4 card-title text-monospace fw-400">{{ post.title | escape }}</h3>
