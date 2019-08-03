@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NHDPZ5K');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -236,22 +234,6 @@ $(document).ready(function(){
     // Dismiss modal on submit
     $('#accept-terms-and-privacy').submit(function() {
         $('#accept-terms-and-privacy').modal('hide');
-    });
-    {% endif %}
-    {% if page.permalink == "/services/website-development" %}
-    // Pricing table toggle function for website development page
-    var toggleNumber;
-    $( "#toggle-container" ).click(function() {
-        toggleNumber = !toggleNumber;
-        if (toggleNumber) {
-            $("#toggle-container-second").css( "clip-path", "inset(0 0 0 50%)" );
-            $(".monthly-promo").css( "display", "none" );
-            $(".fixed-cost-promo").css( "display", "block" );
-        } else {
-            $("#toggle-container-second").css( "clip-path", "inset(0 50% 0 0)" );
-            $(".monthly-promo").css( "display", "block" );
-            $(".fixed-cost-promo").css( "display", "none" );
-        }
     });
     {% endif %}
 });

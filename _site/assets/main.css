@@ -12739,62 +12739,6 @@ footer .motto {
 #online-support .pricing-palden .pricing-deco, #online-support .pricing-palden .pricing-desc {
   border-bottom: 2px solid #ffCD30; }
 
-#toggle-container {
-  width: 100%;
-  height: 60px;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-  user-select: none;
-  cursor: pointer; }
-  #toggle-container .toggle-inner-container {
-    width: 100% !important;
-    left: 0px;
-    font-size: 1rem;
-    position: absolute;
-    top: 0;
-    width: inherit;
-    height: inherit;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.1rem; }
-    @media (min-width: 768px) {
-      #toggle-container .toggle-inner-container {
-        font-size: 1.1rem;
-        width: 50% !important;
-        left: 26%; } }
-    @media (min-width: 992px) {
-      #toggle-container .toggle-inner-container {
-        width: 40% !important;
-        left: 30%; } }
-
-.toggle-inner-container:first-child {
-  background: #e9ecef;
-  color: #212529; }
-
-.toggle-inner-container:nth-child(2) {
-  background: #EF4631;
-  color: #FFF;
-  clip-path: inset(0 50% 0 0);
-  transition: 0.3s cubic-bezier(0, 0, 0, 1); }
-
-.toggle {
-  width: 50%;
-  position: absolute;
-  height: inherit;
-  display: flex;
-  box-sizing: border-box; }
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .toggle {
-      /* IE10+ CSS styles go here */
-      top: 16px; } }
-
-.toggle p {
-  margin: auto; }
-
-.toggle:nth-child(1) {
-  right: 0; }
-
 .fixed-cost-promo {
   display: none; }
 
