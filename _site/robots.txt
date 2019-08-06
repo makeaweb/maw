@@ -7,6 +7,9 @@ Disallow: /terms-and-conditions
 Disallow: /services/index.html
 Disallow: /services/graphic-design
 Disallow: /services/website-design
+Disallow: /services/online-support
+Disallow: /services/digital-marketing
+Disallow: /services/ux-design
 Disallow: /articles/bootstrap-3-the-sass-way
 Disallow: /articles/web-design-podcasts-to-listen-to
 Disallow: /articles/bootstrap-3-pages-to-save

@@ -12724,19 +12724,19 @@ footer .motto {
 #website-development .pricing-palden .pricing-deco, #website-development .pricing-palden .pricing-desc {
   border-bottom: 2px solid #EF4631; }
 
-#ux-design .pricing-palden .pricing-action {
+#design .pricing-palden .pricing-action {
   border-color: #12ABE3; }
-#ux-design .pricing-palden .pricing-deco, #ux-design .pricing-palden .pricing-desc {
+#design .pricing-palden .pricing-deco, #design .pricing-palden .pricing-desc {
   border-bottom: 2px solid #12ABE3; }
 
-#digital-marketing .pricing-palden .pricing-action {
+#marketing .pricing-palden .pricing-action {
   border-color: #2EB349; }
-#digital-marketing .pricing-palden .pricing-deco, #digital-marketing .pricing-palden .pricing-desc {
+#marketing .pricing-palden .pricing-deco, #marketing .pricing-palden .pricing-desc {
   border-bottom: 2px solid #2EB349; }
 
-#online-support .pricing-palden .pricing-action {
+#support .pricing-palden .pricing-action {
   border-color: #ffCD30; }
-#online-support .pricing-palden .pricing-deco, #online-support .pricing-palden .pricing-desc {
+#support .pricing-palden .pricing-deco, #support .pricing-palden .pricing-desc {
   border-bottom: 2px solid #ffCD30; }
 
 .fixed-cost-promo {
