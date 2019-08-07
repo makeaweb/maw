@@ -149,7 +149,17 @@
     <favorites_list name="maw" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/support/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -189,7 +199,6 @@
         <option value="$PROJECT_DIR$/services/digital-marketing/index.html" />
         <option value="$PROJECT_DIR$/services/ux-design/index.html" />
         <option value="$PROJECT_DIR$/services/marketing/index.html" />
-        <option value="$PROJECT_DIR$/services/support/index.html" />
         <option value="$PROJECT_DIR$/services/design/index.html" />
         <option value="$PROJECT_DIR$/services/online-support/index.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
@@ -204,6 +213,7 @@
         <option value="$PROJECT_DIR$/_includes/marketing-intro-text.html" />
         <option value="$PROJECT_DIR$/terms-and-conditions.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/services/support/index.html" />
       </list>
     </option>
   </component>
@@ -224,6 +234,17 @@
             <path>
               <item name="maw" type="b2602c69:ProjectViewProjectNode" />
               <item name="maw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maw" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maw" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,6 +289,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1707" height="1418" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27321428" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -359,13 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/support/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -436,9 +451,7 @@
     <entry file="file://$PROJECT_DIR$/assets/images/src/authors/adam-kolinski.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/src/authors/adam-kolinski-round.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/src/authors/adam-kolinski-round.png" />
     <entry file="file://$PROJECT_DIR$/assets/images/src/og-images/support-landscape.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -548,6 +561,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="101" column="88" selection-start-line="101" selection-start-column="88" selection-end-line="101" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/support/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
