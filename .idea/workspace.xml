@@ -1,138 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff40a0c1-2818-4fc3-bb86-078cbf5aabbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/digital-marketing-intro-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/marketing-intro-text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/online-support-intro-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/support-intro-text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/ux-design-intro-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/design-intro-text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/articles/how-to-edit-content-in-wordpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/how-to-edit-content-in-wordpress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/articles/understanding-google-analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/understanding-google-analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/articles/website-design-process.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/website-design-process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/articles/website-launch-checklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/website-launch-checklist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/articles/what-is-seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/what-is-seo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/article-icons/how-to-edit-content-in-wordpress-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/article-icons/seo-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/article-icons/understanding-google-analytics-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/article-icons/website-design-process-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/article-icons/website-launch-checklist-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/authors/adam-kolinski-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/authors/adam-kolinski.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/logo/makeaweb-logo-web-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/logo/makeaweb-logo-web-design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/logo/makeaweb-logo-web-design.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/articles-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/articles-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/contact-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/contact-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/default-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/default-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/digital-marketing-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/digital-marketing-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/how-to-edit-content-in-wordpress-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/how-to-edit-content-in-wordpress-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/online-support-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/online-support-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/projects-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/projects-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/understanding-google-analytics-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/understanding-google-analytics-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/ux-design-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/ux-design-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/website-design-process-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/website-design-process-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/website-development-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/website-development-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/website-launch-checklist-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/website-launch-checklist-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/what-is-seo-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/og-images/what-is-seo-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/caesar-threads-logo-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/evenrange-screenshot-website.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/penguin-slider-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/penguin-slider-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/prestige-barbers-logo-design.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/rexs-yarra-valley-house-logo-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/ryvh-cards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/projects/ryvh-screenshot-website.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/privacy-policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/services/digital-marketing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/services/online-support.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/services/ux-design.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/services/website-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/services/website-development.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/terms-and-conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/terms-and-conditions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/article-icons/how-to-edit-content-in-wordpress-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/article-icons/seo-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/article-icons/understanding-google-analytics-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/article-icons/website-design-process-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/article-icons/website-launch-checklist-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/authors/adam-kolinski-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/authors/adam-kolinski.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/logo/makeaweb-logo-web-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/logo/makeaweb-logo-web-design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/logo/makeaweb-logo-web-design.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/articles-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/articles-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/contact-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/contact-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/default-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/default-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/digital-marketing-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/digital-marketing-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/how-to-edit-content-in-wordpress-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/how-to-edit-content-in-wordpress-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/online-support-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/online-support-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/projects-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/projects-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/understanding-google-analytics-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/understanding-google-analytics-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/ux-design-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/ux-design-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/website-design-process-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/website-design-process-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/website-development-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/website-development-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/website-launch-checklist-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/website-launch-checklist-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/what-is-seo-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/og-images/what-is-seo-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/caesar-threads-logo-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/evenrange-screenshot-website.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/penguin-slider-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/penguin-slider-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/prestige-barbers-logo-design.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/rexs-yarra-valley-house-logo-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/ryvh-cards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dest/projects/ryvh-screenshot-website.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/og-images/digital-marketing-landscape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/src/og-images/marketing-landscape.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/og-images/digital-marketing-portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/src/og-images/marketing-portrait.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/og-images/online-support-landscape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/src/og-images/support-landscape.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/og-images/online-support-portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/src/og-images/support-portrait.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/og-images/ux-design-landscape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/src/og-images/design-landscape.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/og-images/ux-design-portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/src/og-images/design-portrait.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/src/projects/caesar-threads-logo-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/digital-marketing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/digital-marketing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/online-support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/online-support/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/ux-design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/ux-design/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms-and-conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms-and-conditions.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff40a0c1-2818-4fc3-bb86-078cbf5aabbc" name="Default" comment="" />
     <ignored path="maw.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -149,17 +18,7 @@
     <favorites_list name="maw" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/support/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -235,17 +94,6 @@
               <item name="maw" type="b2602c69:ProjectViewProjectNode" />
               <item name="maw" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maw" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maw" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -280,18 +128,17 @@
       <updated>1539845319187</updated>
       <workItem from="1539845320485" duration="247000" />
       <workItem from="1564808709633" duration="3693000" />
-      <workItem from="1565098717131" duration="1800000" />
+      <workItem from="1565098717131" duration="2205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5740000" />
+    <option name="totallyTimeSpent" value="6145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1707" height="1418" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27321428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32546496" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
