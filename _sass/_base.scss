@@ -189,47 +189,32 @@ body {
     }
 }
 
-// Brand outline buttons with opacity hovers
+// btn-outline-light buttons with brand borders and custom hover
 .btn-outline-light.border-orange {
+    background-color: rgba(239, 70, 49, 0.1);
     &:hover {
-        background-color: rgba(239, 70, 49, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.1);
     }
 }
 
 .btn-outline-light.border-blue {
+    background-color: rgba(18, 171, 227, 0.1);
     &:hover {
-        background-color: rgba(18, 171, 227, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.1);
     }
 }
 
 .btn-outline-light.border-green {
+    background-color: rgba(46, 179, 73, 0.1);
     &:hover {
-        background-color: rgba(46, 179, 73, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.1);
     }
 }
 
 .btn-outline-light.border-yellow {
+    background-color: rgba(255, 205, 48, 0.1);
     &:hover {
-        background-color: rgba(255, 205, 48, 0.1) !important;
-    }
-}
-
-// Homepage services
-#homepage-services {
-    // Homepage service cards
-    .homepage-service-card:hover {
-        .btn-outline-light.border-orange {
-            background-color: rgba(239, 70, 49, 0.1) !important;
-        }
-        .btn-outline-light.border-blue {
-            background-color: rgba(18, 171, 227, 0.1) !important;
-        }
-        .btn-outline-light.border-green {
-            background-color: rgba(46, 179, 73, 0.1) !important;
-        }
-        .btn-outline-light.border-yellow {
-            background-color: rgba(255, 205, 48, 0.1) !important;
-        }
+        background-color: rgba(255, 255, 255, 0.1);
     }
 }
 
@@ -345,15 +330,6 @@ body {
     }
 }
 
-#signup-form{
-    .sign-up-button {
-        top: 0px;
-        @include media-breakpoint-up(md) {
-            top: 32px;
-        }
-    }
-}
-
 // Projects page
 #projects {
     .card-columns {
@@ -454,19 +430,6 @@ footer {
         text-transform: uppercase;
         font-size: 0.9rem;
     }
-}
-
-// Additional
-.bg-whatsapp {
-    background: #00d26a;
-}
-
-.bg-facebook {
-    background: #0084ff;
-}
-
-.bg-instagram {
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 }
 
 // Pricing tables
@@ -662,10 +625,6 @@ footer {
     }
 }
 
-.fixed-cost-promo {
-    display: none;
-}
-
 // Internet explorer 10+ fixes
 // https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
 // Fix for using d-flex to make equal height cards, won't work in IE
@@ -679,4 +638,45 @@ footer {
 .leave-a-review {
     border-top: solid 1px rgba(0,0,0,0.06);
     padding-top: 30px;
+}
+
+// Pricing style for price in sentences
+.price-style {
+    font-size: 1.4em;
+    font-weight: 700;
+
+    .currency {
+        font-size: 0.5em;
+        vertical-align: super;
+    }
+
+    .period {
+        font-size: 0.4em;
+    }
+}
+
+// Card style for showing services with either one cost or an hourly cost
+.service-card {
+    border-radius: 10px;
+
+    .card-body {
+        padding: 1rem;
+
+        .lead {
+            font-size: 1.05rem;
+            padding: 0 0 20px 0;
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        font-size: 1rem;
+        border-top: solid 1px #333;
+        padding: 20px 0 0 0;
+
+        li {
+            margin-bottom: 20px;
+        }
+    }
 }
