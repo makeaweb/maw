@@ -12739,7 +12739,8 @@ footer .motto {
     font-size: 0.5em;
     vertical-align: super; }
   .price-style .period {
-    font-size: 0.4em; }
+    font-size: 0.4em;
+    margin-left: 4px; }
 
 .service-card {
   border-radius: 10px; }

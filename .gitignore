@@ -3,6 +3,7 @@
 .DS_Store?
 ._*
 .DS_STORE
+.idea/
 _site/assets/node_modules/
 _site/assets/images/src/
 _site/assets/Gruntfile.js
