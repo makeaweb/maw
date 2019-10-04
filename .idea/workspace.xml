@@ -4,9 +4,8 @@
     <list default="true" id="ff40a0c1-2818-4fc3-bb86-078cbf5aabbc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/d30599f2126c865eb02d713f43a547291b00a1ca/_base.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/d30599f2126c865eb02d713f43a547291b00a1ca/_base.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/d30599f2126c865eb02d713f43a547291b00a1ca/_bootstrap_custom_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/d30599f2126c865eb02d713f43a547291b00a1ca/_bootstrap_custom_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_bootstrap_custom_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_bootstrap_custom_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/articles/how-to-edit-content-in-wordpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/how-to-edit-content-in-wordpress.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/index.html" afterDir="false" />
@@ -14,10 +13,6 @@
       <change beforePath="$PROJECT_DIR$/_site/articles/website-design-process.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/website-design-process.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/articles/website-launch-checklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/website-launch-checklist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/articles/what-is-seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/what-is-seo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/dapolishphantom/about-tile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/dapolishphantom/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/dapolishphantom/donate-tile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/dest/dapolishphantom/rules-tile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
@@ -30,8 +25,10 @@
       <change beforePath="$PROJECT_DIR$/_site/services/website-development.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/services/website-development.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/terms-and-conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/terms-and-conditions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/marketing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/marketing/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/support/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms-and-conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms-and-conditions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/website-development/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/website-development/index.html" afterDir="false" />
     </list>
     <ignored path="maw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,37 +48,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="634" column="5" selection-start-line="634" selection-start-column="5" selection-end-line="634" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/support/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/marketing/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/design/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="1520">
+              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -89,8 +59,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/website-development/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+            <state relative-caret-position="588">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/marketing/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/support/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="35" column="88" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/pricing-table-hourly-rate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="400" column="4" selection-start-line="400" selection-start-column="4" selection-end-line="400" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/_bootstrap_custom_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="335" column="52" selection-start-line="335" selection-start-column="52" selection-end-line="335" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -99,8 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toggle-container</find>
-      <find>&lt;a href=&quot;/contact&quot; class='pricing-action'&gt;Hire us&lt;/a&gt;</find>
       <find>The fixed cost option is an</find>
       <find>fixed-cost</find>
       <find>These are built on Content Mana</find>
@@ -124,6 +146,13 @@
       <find>signup-form</find>
       <find>border-green</find>
       <find>Get started</find>
+      <find>300</find>
+      <find>border-yellow</find>
+      <find>/contact</find>
+      <find>chat to us</find>
+      <find>font-we</find>
+      <find>col-12 col-md-4 mb-4 d-flex align-items-stretch</find>
+      <find>price-style</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;a href=&quot;/contact&quot; class='pricing-action'&gt;Get started&lt;/a&gt;</replace>
@@ -137,6 +166,11 @@
       <replace>col-12 col-md-6 col-lg-3 mt</replace>
       <replace>border-blue</replace>
       <replace>Sign up</replace>
+      <replace>/contact?q=support</replace>
+      <replace>Chat with us</replace>
+      <replace>border-orange</replace>
+      <replace>col-12 col-lg-4 mb-4 d-flex align-items-stretch</replace>
+      <replace>price-style float-right</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/services</dir>
@@ -162,16 +196,16 @@
         <option value="$PROJECT_DIR$/_includes/support-intro-text.html" />
         <option value="$PROJECT_DIR$/_posts/2018-02-17-understanding-google-analytics.html" />
         <option value="$PROJECT_DIR$/_includes/marketing-intro-text.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/_bootstrap_custom_variables.scss" />
         <option value="$PROJECT_DIR$/terms-and-conditions.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_includes/pricing-table-hourly-rate.html" />
-        <option value="$PROJECT_DIR$/_sass/_base.scss" />
-        <option value="$PROJECT_DIR$/services/support/index.html" />
-        <option value="$PROJECT_DIR$/services/marketing/index.html" />
         <option value="$PROJECT_DIR$/services/design/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/services/marketing/index.html" />
+        <option value="$PROJECT_DIR$/services/support/index.html" />
         <option value="$PROJECT_DIR$/services/website-development/index.html" />
+        <option value="$PROJECT_DIR$/_sass/_base.scss" />
       </list>
     </option>
   </component>
@@ -186,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +231,16 @@
               <item name="maw" type="b2602c69:ProjectViewProjectNode" />
               <item name="maw" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maw" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maw" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maw" type="b2602c69:ProjectViewProjectNode" />
@@ -220,12 +263,19 @@
               <item name="maw" type="b2602c69:ProjectViewProjectNode" />
               <item name="maw" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maw" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="website-development" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,18 +309,18 @@
       <workItem from="1565098717131" duration="2205000" />
       <workItem from="1566261653739" duration="57000" />
       <workItem from="1566261965455" duration="125000" />
-      <workItem from="1570091919093" duration="11258000" />
+      <workItem from="1570091919093" duration="16354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17585000" />
+    <option name="totallyTimeSpent" value="22681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1707" height="1418" extended-state="0" />
+    <frame x="-676" y="-1417" width="1280" height="1181" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27321428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1914378" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,9 +398,6 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -484,20 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="10" column="167" selection-start-line="10" selection-start-column="167" selection-end-line="10" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="101" column="88" selection-start-line="101" selection-start-column="88" selection-end-line="101" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ryvh/public/wp-content/themes/WPmaw/header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -515,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/pricing-table-hourly-rate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -529,38 +555,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="634" column="5" selection-start-line="634" selection-start-column="5" selection-end-line="634" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="10" column="167" selection-start-line="10" selection-start-column="167" selection-end-line="10" selection-end-column="167" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/marketing/index.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="760">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/pricing-table-hourly-rate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/design/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+        <state relative-caret-position="1520">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/website-development/index.html">
+    <entry file="file://$PROJECT_DIR$/services/marketing/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+        <state relative-caret-position="322">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/support/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="253">
+          <caret line="35" column="88" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/website-development/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="400" column="4" selection-start-line="400" selection-start-column="4" selection-end-line="400" selection-end-column="4" />
         </state>
       </provider>
     </entry>
