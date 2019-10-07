@@ -11,80 +11,90 @@
  * Usage - h3 { @include vw(font-size, 28px, 41px, $screen-md-min, $screen-sm-min); }
  */
 @function get-vw($target, $max) {
-  // 1 vw is equal to 1% of the viewport width
-  $max: $max / 1px;
-  $vw-context: ($max * .01) * 1px; // 1% viewport width
-  @return ($target/$vw-context) * 1vw;
+    // 1 vw is equal to 1% of the viewport width
+    $max: $max / 1px;
+    $vw-context: ($max * .01) * 1px; // 1% viewport width
+    @return ($target/$vw-context) * 1vw;
 }
 
 @mixin vw($prop, $small-size, $size, $max-screen: 991px, $min-screen: 576px) {
-  #{$prop}: get-vw($size, $max-screen);
-  // Prevent font-size from getting too big
-  @media (min-width: #{$max-screen}) {
-    #{$prop}: $size;
-  }
-  @media (max-width: #{$min-screen}) {
-    #{$prop}: $small-size;
-  }
+    #{$prop}: get-vw($size, $max-screen);
+    // Prevent font-size from getting too big
+    @media (min-width: #{$max-screen}) {
+        #{$prop}: $size;
+    }
+    @media (max-width: #{$min-screen}) {
+        #{$prop}: $small-size;
+    }
 }
 
 // Rounding buttons
 .btn-round {
-  border-radius: $btn-border-radius-lg;
+    border-radius: $btn-border-radius-lg;
 }
 
 // Button wrapping - https://stackoverflow.com/questions/18996202/twitter-bootstrap-button-text-word-wrap/27773448#27773448
 .btn {
-  white-space: normal !important;
-  word-wrap: break-word;
-  transition: all 100ms ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word;
+    transition: all 100ms ease-in-out;
 
-  &:active {
-    transform: scale(0.97);
-  }
+    &:active {
+        transform: scale(0.97);
+    }
+
+    &:focus, .focus {
+        box-shadow: none !important;
+    }
 }
+//
+//.btn-light:focus, .btn-light.focus {
+//
+//    box-shadow: 0 0 0 0.2rem rgba(203, 206, 209, 0.5);
+//
+//}
 
 // Making images 100
 .img-100 {
-  width: 100%;
+    width: 100%;
 }
 
 // Helper to improve vertical align utility for text
 .at-bottom {
-  vertical-align: -webkit-baseline-middle !important;
+    vertical-align: -webkit-baseline-middle !important;
 }
 
 // Font weights
 .fw-100 {
-  font-weight: 100 !important;
+    font-weight: 100 !important;
 }
 
 .fw-200 {
-  font-weight: 200 !important;
+    font-weight: 200 !important;
 }
 
 .fw-300 {
-  font-weight: 300 !important;
+    font-weight: 300 !important;
 }
 
 .fw-400 {
-  font-weight: 400 !important;
+    font-weight: 400 !important;
 }
 
 .fw-500 {
-  font-weight: 500 !important;
+    font-weight: 500 !important;
 }
 
 .fw-600 {
-  font-weight: 600 !important;
+    font-weight: 600 !important;
 }
 
 .fw-700 {
-  font-weight: 700 !important;
+    font-weight: 700 !important;
 }
 
 .fw-800 {
-  font-weight: 800 !important;
+    font-weight: 800 !important;
 }
 
 /**
@@ -93,12 +103,12 @@
  */
 .lazyload,
 .lazyloading {
-  opacity: 0;
+    opacity: 0;
 }
 
 .lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms;
+    opacity: 1;
+    transition: opacity 300ms;
 }
 
 // Lets make a handy class to manage div elements that are anchors but we don't want text to have anchor styles

@@ -34,8 +34,7 @@
     <meta name="twitter:description" content="{% if page.tagline == null %}Need a website designed and developed? We keep it simple and design and develop memorable websites for businesses. ✌️{% else %}{{ page.tagline }}{% endif %}">
     <meta name="twitter:image:src" content="{% if page.og_image == null %}{{ site.url }}/assets/images/dest/og-images/default-landscape.jpg{% else %}{{ site.url }}/assets/images/dest/og-images/{{ page.og_image }}-landscape.jpg{% endif %}">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy%7COpen+Sans:300,400,600,700" rel="stylesheet">
-    <link href="{{ site.url }}/assets/main.css" rel="stylesheet">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ site.url }}/feed.xml">
+    <link href="{{ site.url }}/assets/main.css" rel="stylesheet">{% if page.stylesheet != null %}<link href="{{ site.url }}/assets/main.css" rel="stylesheet">{% endif %}
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHDPZ5K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -94,16 +93,11 @@
             <div class="row">
                 <div class="col-12 col-md-4 text-center text-md-left mb-3 mb-md-0">
                     <a class="text-white" href="mailto:info@makeaweb.com.au" title="Email MAKE A WEB">
-                        <p class="mb-0">info@makeaweb.com.au <i class="ml-1 fad fa-envelope"></i></p>
+                        <p class="mb-0">info@makeaweb.com.au <i class="ml-1 fal fa-envelope"></i></p>
                     </a>
                 </div>
-                <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
-                    <a rel="noopener" class="text-white" target="_blank" href="https://www.messenger.com/t/makeawebmelbourne" title="Chat to us on Messenger">
-                        <p class="mb-0">Chat to us on Messenger<i class="fab fa-facebook-messenger fa-lg ml-2 mr-2"></i></p>
-                    </a>
-                </div>
-                <div class="col-12 col-md-4 text-center text-md-right">
-                    <p class="mb-0">+61 413 598 886 <i class="ml-1 fad fa-mobile"></i></p>
+                <div class="col-12 col-md-4 text-center text-md-left mb-3 mb-md-0">
+                    <p class="mb-0">+61 413 598 886 <i class="ml-1 fal fa-mobile"></i></p>
                 </div>
             </div>
         </div>
@@ -152,10 +146,10 @@
                     <p class="social-icons">
                         <span itemscope itemtype="http://schema.org/Organization">
                             <link itemprop="url" href="{{ site.url }}">
-                            <a rel="noopener" itemprop="sameAs" href="https://www.instagram.com/makeaweb/" target="_blank" title="Follow MAKE A WEB on Instagram"><i class="fab fa-instagram fa-lg"><span class="sr-only">Follow MAKE A WEB on Instagram</span></i></a>
-                            <a rel="noopener" itemprop="sameAs" href="https://twitter.com/MAKEAWEB_" target="_blank" title="Follow MAKE A WEB on Twitter"><i class="fab fa-twitter fa-lg ml-2"><span class="sr-only">Follow MAKE A WEB on Twitter</span></i></a>
-                            <a rel="noopener" itemprop="sameAs" href="https://www.facebook.com/makeawebmelbourne/" target="_blank" title="Follow MAKE A WEB on Facebook"><i class="fab fa-facebook fa-lg ml-2"><span class="sr-only">Follow MAKE A WEB on Facebook</span></i></a>
-                            <a rel="noopener" itemprop="sameAs" href="https://www.linkedin.com/company/make-a-web" target="_blank" title="Follow MAKE A WEB on LinkedIn"><i class="fab fa-linkedin-in fa-lg ml-2"><span class="sr-only">Follow MAKE A WEB on LinkedIn</span></i></a>
+                            <a rel="noopener" itemprop="sameAs" href="https://www.instagram.com/makeaweb/" target="_blank" title="Follow MAKE A WEB on Instagram"><i class="fab fa-instagram fa-lg"></i><span class="sr-only">Follow MAKE A WEB on Instagram</span></a>
+                            <a rel="noopener" itemprop="sameAs" href="https://twitter.com/MAKEAWEB_" target="_blank" title="Follow MAKE A WEB on Twitter"><i class="fab fa-twitter fa-lg ml-2"></i><span class="sr-only">Follow MAKE A WEB on Twitter</span></a>
+                            <a rel="noopener" itemprop="sameAs" href="https://www.facebook.com/makeawebmelbourne/" target="_blank" title="Follow MAKE A WEB on Facebook"><i class="fab fa-facebook fa-lg ml-2"></i><span class="sr-only">Follow MAKE A WEB on Facebook</span></a>
+                            <a rel="noopener" itemprop="sameAs" href="https://www.linkedin.com/company/makeaweb" target="_blank" title="Follow MAKE A WEB on LinkedIn"><i class="fab fa-linkedin-in fa-lg ml-2"></i><span class="sr-only">Follow MAKE A WEB on LinkedIn</span></a>
                         </span>
                     </p>
                     <small><a class="mr-5" href="{{ site.url }}/terms-and-conditions">Terms and conditions</a><a class="mr-5" href="{{ site.url }}/privacy-policy">Privacy policy</a></small>

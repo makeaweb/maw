@@ -178,32 +178,32 @@ body {
     @include vw(margin-bottom, 20px, 70px);
 }
 
-// btn-outline-light buttons with brand borders and custom hover
+// Custom button styles we use
 .btn-outline-light.border-orange {
     background-color: rgba(239, 70, 49, 0.1);
     &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(239, 70, 49, 0.3);
     }
 }
 
 .btn-outline-light.border-blue {
     background-color: rgba(18, 171, 227, 0.1);
     &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(18, 171, 227, 0.3);
     }
 }
 
 .btn-outline-light.border-green {
     background-color: rgba(46, 179, 73, 0.1);
     &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(46, 179, 73, 0.3);
     }
 }
 
 .btn-outline-light.border-yellow {
     background-color: rgba(255, 205, 48, 0.1);
     &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 205, 48, 0.3);
     }
 }
 
@@ -240,13 +240,6 @@ body {
 
         .btn {
             bottom: 15px;
-        }
-
-        &:hover {
-            .btn {
-                background-color: $gray-200;
-                border-color: $gray-200;
-            }
         }
     }
 }
