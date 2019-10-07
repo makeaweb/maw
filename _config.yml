@@ -23,6 +23,15 @@ url: "https://makeaweb.com.au" # the base hostname & protocol for your site, e.g
 # Build settings
 markdown: kramdown
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - Gemfile
   - Gemfile.lock
   - README.md
@@ -40,3 +49,4 @@ html_press:
   drop_empty_values: false
   strip_crlf: false
   js_minifier_options: false
+incremental: true # Incremental regeneration, speeds up serve time
