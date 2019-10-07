@@ -11,3 +11,6 @@ _site/assets/package-lock.json
 _site/assets/package.json
 _site/LICENSE
 assets/node_modules/
+_site/feed.xml
+_site/README.md
+_site/LICENSE
