@@ -5897,7 +5897,7 @@ button.bg-purple:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1) !important; }
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
@@ -12403,23 +12403,17 @@ body {
 #articles a {
   color: #212529;
   text-decoration: none; }
-#articles .card {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
-  #articles .card .card-img-top {
-    width: 40%;
-    height: 150px;
-    margin: 0px auto; }
-  #articles .card .card-title {
-    letter-spacing: 0.05rem; }
-  #articles .card .btn {
-    bottom: 15px; }
-  #articles .card:hover {
-    transform: translate(0, 2px);
-    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    #articles .card:hover .btn {
-      background-color: #e9ecef;
-      border-color: #e9ecef; }
+#articles .card .card-img-top {
+  width: 40%;
+  height: 150px;
+  margin: 0 auto; }
+#articles .card .card-title {
+  letter-spacing: 0.05rem; }
+#articles .card .btn {
+  bottom: 15px; }
+#articles .card:hover .btn {
+  background-color: #e9ecef;
+  border-color: #e9ecef; }
 
 .maw-card-footer {
   background: white;
@@ -12432,7 +12426,7 @@ body {
   letter-spacing: 0.1rem; }
 #article .post-image {
   position: relative;
-  margin: 0px auto;
+  margin: 0 auto;
   width: 50%;
   height: 180px;
   display: flex;
@@ -12543,33 +12537,19 @@ body {
   #projects .card-columns .btn {
     color: #212529;
     text-decoration: none; }
-  #projects .card-columns .border-orange {
-    box-shadow: 0 2px 12px rgba(239, 70, 49, 0.1) !important; }
-  #projects .card-columns .border-blue {
-    box-shadow: 0 2px 12px rgba(18, 171, 227, 0.1) !important; }
-  #projects .card-columns .border-green {
-    box-shadow: 0 2px 12px rgba(46, 179, 73, 0.1) !important; }
-  #projects .card-columns .card {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
-  #projects .card-columns .card-hover {
-    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    #projects .card-columns .card-hover:hover {
-      transform: translate(0, 2px);
-      transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1); }
-      #projects .card-columns .card-hover:hover .card-footer .btn {
-        background-color: #e9ecef;
-        border-color: #e9ecef; }
+  #projects .card-columns .card-hover:hover .card-footer .btn {
+    background-color: #e9ecef;
+    border-color: #e9ecef; }
   #projects .card-columns .maw-card-footer {
     background: white;
     border-top: none;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%; }
 
 .service-card {
   min-width: 100%;
-  margin: 0 auto;
-  border-radius: 10px; }
+  margin: 0 auto; }
   @media (min-width: 768px) {
     .service-card {
       min-width: 330px; } }

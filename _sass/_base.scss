@@ -228,13 +228,10 @@ body {
     }
 
     .card {
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-        transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-
         .card-img-top {
             width: 40%;
             height: 150px;
-            margin: 0px auto;
+            margin: 0 auto;
         }
 
         .card-title {
@@ -246,9 +243,6 @@ body {
         }
 
         &:hover {
-            transform: translate(0, 2px);
-            transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-
             .btn {
                 background-color: $gray-200;
                 border-color: $gray-200;
@@ -273,7 +267,7 @@ body {
 
     .post-image {
         position: relative;
-        margin: 0px auto;
+        margin: 0 auto;
         width: 50%;
         height: 180px;
         display: flex;
@@ -335,29 +329,8 @@ body {
             text-decoration: none;
         }
 
-        .border-orange {
-            box-shadow: 0 2px 12px rgba(239, 70, 49, 0.1) !important;
-        }
-
-        .border-blue {
-            box-shadow: 0 2px 12px rgba(18, 171, 227, 0.1) !important;
-        }
-
-        .border-green {
-            box-shadow: 0 2px 12px rgba(46, 179, 73, 0.1) !important;
-        }
-
-        .card {
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-        }
-
         .card-hover {
-            transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-
             &:hover {
-                transform: translate(0, 2px);
-                transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-
                 .card-footer .btn{
                     background-color: $gray-200;
                     border-color: $gray-200;
@@ -369,7 +342,7 @@ body {
             background: white;
             border-top: none;
             position: absolute;
-            bottom: 0px;
+            bottom: 0;
             width: 100%;
         }
     }
@@ -389,7 +362,6 @@ body {
     }
 
     margin: 0 auto;
-    border-radius: 10px;
 
     .card-body {
         padding: 1rem;
