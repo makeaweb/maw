@@ -167,7 +167,7 @@ body {
     }
 }
 
-// page content offset because of fixed #header
+// Page content offset because of fixed #header
 .page-content {
     margin-top: 86px;
 }
@@ -220,196 +220,9 @@ body {
     }
 }
 
-// Articles page
-#articles {
-    a {
-        color: $body-color;
-        text-decoration: none;
-    }
-
-    .card {
-        .card-img-top {
-            width: 40%;
-            height: 150px;
-            margin: 0 auto;
-        }
-
-        .card-title {
-            letter-spacing: 0.05rem;
-        }
-
-        .btn {
-            bottom: 15px;
-        }
-    }
-}
-
-// Global style for card footer to have white background
-.maw-card-footer {
-    background: white;
-    border-top: none;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-
-#article {
-    .post-title {
-        letter-spacing: 0.1rem;
-    }
-
-    .post-image {
-        position: relative;
-        margin: 0 auto;
-        width: 50%;
-        height: 180px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .author-image {
-        width: 30px;
-        top: -2px;
-    }
-
-    .post-content {
-        h1, .h1 {
-            @include vw(margin-top, 40px, 50px);
-            @include vw(margin-bottom, 40px, 50px);
-        }
-
-        h2, .h2 {
-            @include vw(margin-top, 30px, 40px);
-            @include vw(margin-bottom, 30px, 40px);
-        }
-
-        h3, .h3 {
-            @include vw(margin-top, 20px, 30px);
-            @include vw(margin-bottom, 20px, 30px);
-        }
-
-        h4, .h4 {
-            @include vw(margin-top, 15px, 20px);
-            @include vw(margin-bottom, 15px, 20px);
-        }
-
-        h5, .h5 {
-            @include vw(margin-top, 15px, 20px);
-            @include vw(margin-bottom, 15px, 20px);
-        }
-
-        h6, .h6 {
-            @include vw(margin-top, 15px, 20px);
-            @include vw(margin-bottom, 15px, 20px);
-        }
-    }
-}
-
-// Projects page
-#projects {
-    .card-columns {
-        column-count: 1;
-        @include media-breakpoint-up(md) {
-            column-count: 2;
-        }
-        @include media-breakpoint-up(xl) {
-            column-count: 3;
-        }
-
-        .btn {
-            color: $body-color;
-            text-decoration: none;
-        }
-
-        .card-hover {
-            &:hover {
-                .card-footer .btn{
-                    background-color: $gray-200;
-                    border-color: $gray-200;
-                }
-            }
-        }
-
-        .maw-card-footer {
-            background: white;
-            border-top: none;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    }
-}
-
-// Card style for showing services with either one cost or an hourly cost
-.service-card {
-    min-width: 100%;
-    @include media-breakpoint-up(md) {
-        min-width: 330px;
-    }
-    @include media-breakpoint-up(lg) {
-        min-width: 210px;
-    }
-    @include media-breakpoint-up(xl) {
-        min-width: 255px;
-    }
-
-    margin: 0 auto;
-
-    .card-body {
-        padding: 1rem;
-
-        .lead {
-            font-size: 1.05rem;
-            padding: 0 0 20px 0;
-        }
-    }
-
-    ul {
-        list-style: none;
-        margin: 0;
-        font-size: 1rem;
-        border-top: solid 1px #333;
-        padding: 20px 0 0 0;
-
-        li {
-            margin-bottom: 20px;
-        }
-    }
-
-    .btn {
-        display: inline-table;
-        margin: 0 auto;
-    }
-}
-
-.service-card-2 {
-    min-width: 100%;
-    @include media-breakpoint-up(md) {
-        min-width: 330px;
-    }
-    @include media-breakpoint-up(lg) {
-        min-width: 280px;
-    }
-    @include media-breakpoint-up(xl) {
-        min-width: 350px;
-    }
-}
-
-// Pricing style for price in sentences
-.price-style {
-    font-size: 1.4em;
-    font-weight: 700;
-
-    .currency {
-        font-size: 0.5em;
-        vertical-align: super;
-    }
-
-    .period {
-        font-size: 0.4em;
-        margin-left: 4px;
-    }
+.leave-a-review {
+    border-top: solid 1px rgba(0,0,0,0.06);
+    padding-top: 30px;
 }
 
 // Footer
@@ -456,19 +269,4 @@ footer {
         text-transform: uppercase;
         font-size: 0.9rem;
     }
-}
-
-// Internet explorer 10+ fixes
-// https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
-// Fix for using d-flex to make equal height cards, won't work in IE
-.d-ie-block {
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-     /* IE10+ CSS styles go here */
-     display: block !important;
-    }
-}
-
-.leave-a-review {
-    border-top: solid 1px rgba(0,0,0,0.06);
-    padding-top: 30px;
 }

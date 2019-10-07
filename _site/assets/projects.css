@@ -1,0 +1,20 @@
+#projects .card-columns {
+  column-count: 1; }
+  @media (min-width: 768px) {
+    #projects .card-columns {
+      column-count: 2; } }
+  @media (min-width: 1200px) {
+    #projects .card-columns {
+      column-count: 3; } }
+  #projects .card-columns .btn {
+    color: #212529;
+    text-decoration: none; }
+  #projects .card-columns .card-hover:hover .card-footer .btn {
+    background-color: #EEEEEE;
+    border-color: #EEEEEE; }
+  #projects .card-columns .maw-card-footer {
+    background: white;
+    border-top: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }

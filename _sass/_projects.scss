@@ -1,0 +1,39 @@
+@import "bootstrap_custom_variables";
+@import "./bootstrap-4/scss/functions";
+@import "./bootstrap-4/scss/variables";
+@import "./bootstrap-4/scss/mixins/breakpoints";
+
+// Projects page styles
+#projects {
+    .card-columns {
+        column-count: 1;
+        @include media-breakpoint-up(md) {
+            column-count: 2;
+        }
+        @include media-breakpoint-up(xl) {
+            column-count: 3;
+        }
+
+        .btn {
+            color: $body-color;
+            text-decoration: none;
+        }
+
+        .card-hover {
+            &:hover {
+                .card-footer .btn{
+                    background-color: $gray-200;
+                    border-color: $gray-200;
+                }
+            }
+        }
+
+        .maw-card-footer {
+            background: white;
+            border-top: none;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+}

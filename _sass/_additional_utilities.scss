@@ -28,11 +28,6 @@
     }
 }
 
-// Rounding buttons
-.btn-round {
-    border-radius: $btn-border-radius-lg;
-}
-
 // Button wrapping - https://stackoverflow.com/questions/18996202/twitter-bootstrap-button-text-word-wrap/27773448#27773448
 .btn {
     white-space: normal !important;
@@ -47,68 +42,18 @@
         box-shadow: none !important;
     }
 }
-//
-//.btn-light:focus, .btn-light.focus {
-//
-//    box-shadow: 0 0 0 0.2rem rgba(203, 206, 209, 0.5);
-//
-//}
 
-// Making images 100
-.img-100 {
-    width: 100%;
-}
-
-// Helper to improve vertical align utility for text
-.at-bottom {
-    vertical-align: -webkit-baseline-middle !important;
-}
-
-// Font weights
-.fw-100 {
-    font-weight: 100 !important;
-}
-
+// Font weight utility classes that are being use
 .fw-200 {
     font-weight: 200 !important;
-}
-
-.fw-300 {
-    font-weight: 300 !important;
 }
 
 .fw-400 {
     font-weight: 400 !important;
 }
 
-.fw-500 {
-    font-weight: 500 !important;
-}
-
-.fw-600 {
-    font-weight: 600 !important;
-}
-
 .fw-700 {
     font-weight: 700 !important;
-}
-
-.fw-800 {
-    font-weight: 800 !important;
-}
-
-/**
- * Fade image in after load
- * Doc - https://github.com/aFarkas/lazysizes/blob/gh-pages/README.md
- */
-.lazyload,
-.lazyloading {
-    opacity: 0;
-}
-
-.lazyloaded {
-    opacity: 1;
-    transition: opacity 300ms;
 }
 
 // Lets make a handy class to manage div elements that are anchors but we don't want text to have anchor styles
@@ -131,8 +76,12 @@
     }
 }
 
-// Have a 2px border
-
-.border-2px {
-    border-width: 2px !important;
+// Internet explorer 10+ fixes
+// https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet
+// Fix for using d-flex to make equal height cards, won't work in IE
+.d-ie-block {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        display: block !important;
+    }
 }

@@ -1,0 +1,59 @@
+@import "bootstrap_custom_variables";
+@import "./bootstrap-4/scss/functions";
+@import "./bootstrap-4/scss/variables";
+@import "./bootstrap-4/scss/mixins/breakpoints";
+@import "additional_utilities";
+
+// Article page styles
+#article {
+    .post-title {
+        letter-spacing: 0.1rem;
+    }
+
+    .post-image {
+        position: relative;
+        margin: 0 auto;
+        width: 50%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .author-image {
+        width: 30px;
+        top: -2px;
+    }
+
+    .post-content {
+        h1, .h1 {
+            @include vw(margin-top, 40px, 50px);
+            @include vw(margin-bottom, 40px, 50px);
+        }
+
+        h2, .h2 {
+            @include vw(margin-top, 30px, 40px);
+            @include vw(margin-bottom, 30px, 40px);
+        }
+
+        h3, .h3 {
+            @include vw(margin-top, 20px, 30px);
+            @include vw(margin-bottom, 20px, 30px);
+        }
+
+        h4, .h4 {
+            @include vw(margin-top, 15px, 20px);
+            @include vw(margin-bottom, 15px, 20px);
+        }
+
+        h5, .h5 {
+            @include vw(margin-top, 15px, 20px);
+            @include vw(margin-bottom, 15px, 20px);
+        }
+
+        h6, .h6 {
+            @include vw(margin-top, 15px, 20px);
+            @include vw(margin-bottom, 15px, 20px);
+        }
+    }
+}

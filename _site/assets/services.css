@@ -1,0 +1,57 @@
+.service-card {
+  min-width: 100%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .service-card {
+      min-width: 330px; } }
+  @media (min-width: 992px) {
+    .service-card {
+      min-width: 210px; } }
+  @media (min-width: 1200px) {
+    .service-card {
+      min-width: 255px; } }
+  .service-card .card-body {
+    padding: 1rem; }
+    .service-card .card-body .lead {
+      font-size: 1.05rem;
+      padding: 0 0 20px 0; }
+  .service-card ul {
+    list-style: none;
+    margin: 0;
+    font-size: 1rem;
+    border-top: solid 1px #333;
+    padding: 20px 0 0 0; }
+    .service-card ul li {
+      margin-bottom: 20px; }
+  .service-card .btn {
+    display: inline-table;
+    margin: 0 auto; }
+
+.service-card-2 {
+  min-width: 100%; }
+  @media (min-width: 768px) {
+    .service-card-2 {
+      min-width: 330px; } }
+  @media (min-width: 992px) {
+    .service-card-2 {
+      min-width: 280px; } }
+  @media (min-width: 1200px) {
+    .service-card-2 {
+      min-width: 350px; } }
+
+.price-style {
+  font-size: 1.4em;
+  font-weight: 700; }
+  .price-style .currency {
+    font-size: 0.5em;
+    vertical-align: super; }
+  .price-style .period {
+    font-size: 0.4em;
+    margin-left: 4px; }
+
+.maw-card-footer {
+  background: white;
+  border-top: none;
+  position: absolute;
+  bottom: 0px;
+  width: 100%; }

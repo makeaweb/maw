@@ -34,7 +34,7 @@
     <meta name="twitter:description" content="{% if page.tagline == null %}Need a website designed and developed? We keep it simple and design and develop memorable websites for businesses. ✌️{% else %}{{ page.tagline }}{% endif %}">
     <meta name="twitter:image:src" content="{% if page.og_image == null %}{{ site.url }}/assets/images/dest/og-images/default-landscape.jpg{% else %}{{ site.url }}/assets/images/dest/og-images/{{ page.og_image }}-landscape.jpg{% endif %}">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy%7COpen+Sans:300,400,600,700" rel="stylesheet">
-    <link href="{{ site.url }}/assets/main.css" rel="stylesheet">{% if page.stylesheet != null %}<link href="{{ site.url }}/assets/main.css" rel="stylesheet">{% endif %}
+    <link href="{{ site.url }}/assets/main.css" rel="stylesheet">{% if page.stylesheet != null %}<link href="{{ site.url }}/assets/{{ page.stylesheet }}.css" rel="stylesheet">{% endif %}
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHDPZ5K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

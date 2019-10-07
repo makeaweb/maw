@@ -1,0 +1,11 @@
+#articles a {
+  color: #212529;
+  text-decoration: none; }
+#articles .card .card-img-top {
+  width: 40%;
+  height: 150px;
+  margin: 0 auto; }
+#articles .card .card-title {
+  letter-spacing: 0.05rem; }
+#articles .card .btn {
+  bottom: 15px; }

@@ -1,0 +1,28 @@
+@import "bootstrap_custom_variables";
+@import "./bootstrap-4/scss/functions";
+@import "./bootstrap-4/scss/variables";
+@import "./bootstrap-4/scss/mixins/breakpoints";
+
+// Articles page styles
+#articles {
+    a {
+        color: $body-color;
+        text-decoration: none;
+    }
+
+    .card {
+        .card-img-top {
+            width: 40%;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        .card-title {
+            letter-spacing: 0.05rem;
+        }
+
+        .btn {
+            bottom: 15px;
+        }
+    }
+}
