@@ -7,7 +7,7 @@ body {
 
 #header {
     position: fixed;
-    top: 0px;
+    top: 0;
     @include media-breakpoint-up(lg) {
         height: 87px;
     }
@@ -46,7 +46,7 @@ body {
             position: absolute;
         }
         top: 12px;
-        right: 0px;
+        right: 0;
         margin-top: 4px;
     }
 
@@ -86,8 +86,7 @@ body {
 
         // Styling the dropdown
         .dropdown-menu {
-            border-radius: 0.25rem;
-            border-radius: 0px;
+            border-radius: 0;
             border-color: $gray-300;
             box-shadow: none;
             @include media-breakpoint-up(lg) {
@@ -177,16 +176,6 @@ body {
 .maw-jumbotron-margin {
     @include vw(margin-top, 20px, 70px);
     @include vw(margin-bottom, 20px, 70px);
-}
-
-// Homepage welcome section, improving button styles
-#welcome {
-    .btn-outline-light {
-        &:hover {
-            background-color: #e9ecef;
-            border-color: #e9ecef;
-        }
-    }
 }
 
 // btn-outline-light buttons with brand borders and custom hover

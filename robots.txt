@@ -2,8 +2,6 @@ User-Agent: *
 
 Disallow: /success
 Disallow: /404
-Disallow: /privacy-policy
-Disallow: /terms-and-conditions
 Disallow: /services/index.html
 Disallow: /services/graphic-design
 Disallow: /services/website-design
