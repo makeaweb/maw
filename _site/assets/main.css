@@ -12343,22 +12343,22 @@ body {
 
 .btn-outline-light.border-orange {
   background-color: rgba(239, 70, 49, 0.1); }
-  .btn-outline-light.border-orange:hover {
+  .btn-outline-light.border-orange:hover, .btn-outline-light.border-orange:focus {
     background-color: rgba(239, 70, 49, 0.3); }
 
 .btn-outline-light.border-blue {
   background-color: rgba(18, 171, 227, 0.1); }
-  .btn-outline-light.border-blue:hover {
+  .btn-outline-light.border-blue:hover, .btn-outline-light.border-blue:focus {
     background-color: rgba(18, 171, 227, 0.3); }
 
 .btn-outline-light.border-green {
   background-color: rgba(46, 179, 73, 0.1); }
-  .btn-outline-light.border-green:hover {
+  .btn-outline-light.border-green:hover, .btn-outline-light.border-green:focus {
     background-color: rgba(46, 179, 73, 0.3); }
 
 .btn-outline-light.border-yellow {
   background-color: rgba(255, 205, 48, 0.1); }
-  .btn-outline-light.border-yellow:hover {
+  .btn-outline-light.border-yellow:hover, .btn-outline-light.border-yellow:focus {
     background-color: rgba(255, 205, 48, 0.3); }
 
 #reviews .stars {
