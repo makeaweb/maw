@@ -33,3 +33,4 @@ html_press:
   drop_empty_values: false
   strip_crlf: false
   js_minifier_options: false
+# Not maintained. _config.yml is main unless we have different environment specific builds.
