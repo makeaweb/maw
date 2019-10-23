@@ -12,13 +12,13 @@ stylesheet: articles
     <div class="row">
         {% for post in site.posts %}
         <div class="col-12 col-md-6 col-lg-4 d-flex d-ie-block">
-            <div class="card flex-fill d-ie-block mb-3 mb-md-6 no-anchor-styles shadow">
+            <div class="card flex-fill d-ie-block mb-3 mb-md-6 no-anchor-styles shadow text-center">
                 <img class="card-img-top my-6" src="{{ post.article_image | escape }}" alt="{{ post.title | escape }}">
-                <div class="card-body pt-0">
+                <div class="card-body pt-0 text-left">
                     <h3 class="h4 card-title text-monospace fw-400">{{ post.title | escape }}</h3>
                     <h4 class="h6 card-subtitle mb-2 text-muted">
                     {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                    {% if post.updated != null %}
+                    {% if post.updated != null %}4
                         Updated - {{ post.updated | date: date_format }}
                     {% endif %}
                     {% if post.updated == null %}
