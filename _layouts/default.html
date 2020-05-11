@@ -70,9 +70,6 @@
                     <li class="nav-item{% if page.url contains 'projects' %} active{% endif %}">
                         <a class="nav-link" href="{{ site.url }}/projects">Projects{% if page.url contains 'projects' %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
-                    <li class="nav-item{% if page.url contains 'articles' %} active{% endif %}">
-                        <a class="nav-link" href="{{ site.url }}/articles">Articles{% if page.url contains 'articles' %} <span class="sr-only">(current)</span>{% endif %}</a>
-                    </li>
                     <li class="nav-item{% if page.url contains 'contact' %} active{% endif %}">
                         <a class="nav-link" href="{{ site.url }}/contact">Contact{% if page.url contains 'contact' %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
@@ -91,13 +88,10 @@
     <div id="contact-information" class="container-fluid bg-light-brown text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center text-md-left mb-3 mb-md-0">
-                    <a class="text-white" href="mailto:info@makeaweb.com.au" title="Email MAKE A WEB">
-                        <p class="mb-0">info@makeaweb.com.au <i class="ml-1 fal fa-envelope"></i></p>
+                <div class="col-12 text-center mb-3 mb-md-0">
+                    <a class="text-white" href="/contact" title="Email MAKE A WEB">
+                        <p class="mb-0">Send us a message <i class="ml-1 fal fa-envelope"></i></p>
                     </a>
-                </div>
-                <div class="col-12 col-md-4 text-center text-md-left mb-3 mb-md-0">
-                    <p class="mb-0">+61 413 598 886 <i class="ml-1 fal fa-mobile"></i></p>
                 </div>
             </div>
         </div>
@@ -122,11 +116,6 @@
                 <div class="col-12 col-md-2">
                     <ul class="list-group">
                         <li class="list-group-item border-0 p-0 bg-brown text-white"><a href="{{ site.url }}/projects">Projects</a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-2">
-                    <ul class="list-group">
-                        <li class="list-group-item border-0 p-0 bg-brown text-white"><a href="{{ site.url }}/articles">Articles</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3">
