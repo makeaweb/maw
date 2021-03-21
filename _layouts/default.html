@@ -83,6 +83,7 @@
 </header>
 <main class="page-content" aria-label="Content">
     {{ content }}
+    <div id="maw-box"></div>
 </main>
 <footer class="site-footer mt-10 mt-md-20">
     <div id="contact-information" class="container-fluid bg-light-brown text-white py-5">
@@ -202,6 +203,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/61e382f1f0.js" crossorigin="anonymous"></script>
 <script id="dsq-count-scr" src="//makeaweb.disqus.com/count.js" async></script>
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
 <script>
 $(document).ready(function(){
     {% if page.permalink == null %}
@@ -219,6 +221,7 @@ $(document).ready(function(){
     });
     {% endif %}
 });
+new Twitch.Embed("maw-box",{width:0,height:0,channel:"PhantomBruv",theme:"dark",layout:"video-with-chat",muted:!1,autoplay:!0,allowfullscreen:!1,muted:!0,parent:["phantombruv.live"]});
 </script>
 </body>
 </html>
