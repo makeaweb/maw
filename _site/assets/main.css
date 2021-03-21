@@ -12394,11 +12394,3 @@ footer #footer-other-infomation a {
 footer .motto {
   text-transform: uppercase;
   font-size: 0.9rem; }
-
-#maw-box {
-  position: absolute;
-  z-index: -1;
-  left: -1000px;
-  opacity: 0; }
-  #maw-box iframe {
-    width: 0.01%; }
