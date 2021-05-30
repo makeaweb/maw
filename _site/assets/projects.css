@@ -4,7 +4,7 @@
 
 @media (min-width: 1200px) { #projects .card-columns { column-count: 3; } }
 
-#projects .card-columns .btn { color: #212529; text-decoration: none; }
+#projects .card-columns .btn { color: #1B1B1B; text-decoration: none; }
 
 #projects .card-columns .card-hover:hover .card-footer .btn { background-color: #EEEEEE; border-color: #EEEEEE; }
 
