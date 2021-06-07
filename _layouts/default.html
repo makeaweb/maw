@@ -89,9 +89,9 @@
     <div id="contact-information" class="container-fluid bg-light-dark text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-3 mb-md-0">
+                <div class="col-12 text-center mb-0">
                     <a class="text-white" href="/contact" title="Email MAKE A WEB">
-                        <p class="mb-0">Send us a message <i class="ml-1 fal fa-envelope"></i></p>
+                        <p class="mb-0">Have a question? Send us a message <i class="ml-1 mr-1 fal fa-envelope"></i> info@makeaweb.com.au</p>
                     </a>
                 </div>
             </div>
@@ -218,6 +218,15 @@ $(document).ready(function(){
         $('#accept-terms-and-privacy').modal('hide');
     });
     {% endif %}
+    // URL handling for the contact page. Enables us to read enquires better when people submit our form.
+    let uriQuerystring = window.location.search;
+    let uriSlug = uriQuerystring.split('=').pop();
+    let webLoc = "Contact page " + uriSlug
+    let webLocEl = document.getElementById('mce-WEBLOC')
+    if(webLocEl){
+        // Element exists
+        document.getElementById('mce-WEBLOC').value = webLoc;
+    }
 });
 </script>
 </body>
