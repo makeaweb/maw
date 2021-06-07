@@ -85,6 +85,7 @@
     {{ content }}
 </main>
 <footer class="site-footer mt-10 mt-md-20">
+    {% if page.permalink != '/contact' %}
     <div id="contact-information" class="container-fluid bg-light-dark text-white py-5">
         <div class="container">
             <div class="row">
@@ -96,6 +97,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
     <div id="footer-sitemap" class="bg-dark text-white pt-7 pt-md-14">
         <div class="container">
             <div class="row">
