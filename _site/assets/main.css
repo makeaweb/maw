@@ -3244,4 +3244,6 @@ footer .motto { text-transform: uppercase; font-size: 0.9rem; }
 
 .bg-light-dark { background: #262626; }
 
+@media (max-width: 767.98px) { .display-3 { font-size: 32px; } .lead { font-size: 22px; } }
+
 /*# sourceMappingURL=main.css.map */

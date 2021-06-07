@@ -274,3 +274,14 @@ footer {
 .bg-light-dark {
     background: #262626;
 }
+
+// Making the display and lead look good in mobile
+@include media-breakpoint-down(sm) {
+    .display-3 {
+        font-size: 32px;
+    }
+
+    .lead {
+        font-size: 22px;
+    }
+}
