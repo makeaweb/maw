@@ -10,6 +10,9 @@
     "time-grunt": "^1.4.0"
   },
   "dependencies": {
-    "jquery-match-height": "^0.7.2"
+    "css-what": "^5.0.1",
+    "glob-parent": "^6.0.0",
+    "jquery-match-height": "^0.7.2",
+    "trim-newlines": "^4.0.1"
   }
 }
