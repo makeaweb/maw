@@ -285,3 +285,18 @@ footer {
         font-size: 22px;
     }
 }
+
+.wd-text-border {
+    border-bottom: 1px solid $orange;
+    border-bottom-width: 2px;
+}
+
+.d-text-border {
+    border-bottom: 1px solid $blue;
+    border-bottom-width: 2px;
+}
+
+.s-text-border {
+    border-bottom: 1px solid $yellow;
+    border-bottom-width: 2px;
+}

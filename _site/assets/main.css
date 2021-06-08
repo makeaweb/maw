@@ -3246,4 +3246,10 @@ footer .motto { text-transform: uppercase; font-size: 0.9rem; }
 
 @media (max-width: 767.98px) { .display-3 { font-size: 32px; } .lead { font-size: 22px; } }
 
+.wd-text-border { border-bottom: 1px solid #EF4631; border-bottom-width: 2px; }
+
+.d-text-border { border-bottom: 1px solid #12ABE3; border-bottom-width: 2px; }
+
+.s-text-border { border-bottom: 1px solid #ffCD30; border-bottom-width: 2px; }
+
 /*# sourceMappingURL=main.css.map */
