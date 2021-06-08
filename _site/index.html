@@ -23,5 +23,32 @@ $(document).ready(function(){
         // Element exists
         document.getElementById('mce-WEBLOC').value = webLoc;
     }
+    // Get the personalised message contact ID on the contact page
+    let personalisedMessage = document.getElementById('personalised-message-contact');
+    // Replace the text with a personalised message on the contact page
+    if ( uriSlug === 'basic-plan') {
+        personalisedMessage.innerHTML = "You have selected to sign up to the <strong class='text-orange'>Basic monthly website plan</strong>. Tell us in as much detail about what you would like to achieve with your website?";
+    }
+    if ( uriSlug === 'blog-plan') {
+        personalisedMessage.innerHTML = "You have selected to sign up to the <strong class='text-orange'>Blog monthly website plan</strong>. Tell us in as much detail about what you would like to achieve with your website?";
+    }
+    if ( uriSlug === 'store-plan') {
+        personalisedMessage.innerHTML = "You have selected to sign up to the <strong class='text-orange'>Store monthly website plan</strong>. Tell us in as much detail about what you would like to achieve with your website?";
+    }
+    if ( uriSlug === 'wireframing') {
+        personalisedMessage.innerHTML = "You have selected to hire us for our <strong class='text-blue'>Wireframing design service</strong>. Tell us in as much detail about what you need using the message box below.";
+    }
+    if ( uriSlug === 'website-design') {
+        personalisedMessage.innerHTML = "You have selected to hire us for our <strong class='text-blue'>Website design service</strong>. Tell us in as much detail about what you need using the message box below.";
+    }
+    if ( uriSlug === 'logo-design') {
+        personalisedMessage.innerHTML = "You have selected to hire us for our <strong class='text-blue'>Logo design service</strong>. Tell us in as much detail about what you need using the message box below.";
+    }
+    if ( uriSlug === 'business-cards') {
+        personalisedMessage.innerHTML = "You have selected to hire us for our <strong class='text-blue'>Business cards service</strong>. Tell us in as much detail about what you need using the message box below.";
+    }
+    if ( uriSlug === 'support') {
+        personalisedMessage.innerHTML = "You have selected to sign up to the <strong class='text-yellow'>Support monthly plan</strong>. Tell us in as much detail about what you need using the message box below.";
+    }
 });
 </script></body></html>

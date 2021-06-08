@@ -18,7 +18,7 @@ stylesheet: articles
                     <h3 class="h4 card-title text-monospace fw-400">{{ post.title | escape }}</h3>
                     <h4 class="h6 card-subtitle mb-2 text-muted">
                     {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                    {% if post.updated != null %}4
+                    {% if post.updated != null %}
                         Updated - {{ post.updated | date: date_format }}
                     {% endif %}
                     {% if post.updated == null %}
