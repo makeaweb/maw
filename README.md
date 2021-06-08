@@ -15,5 +15,5 @@ Shortcuts: <a target="_blank" href="https://gist.github.com/akolinski/4e40aed78e
 
 ## References and documentation
 
-<a target="_blank" href="https://forestry.io/blog/how-i-reduced-my-jekyll-build-time-by-61/">https://forestry.io/blog/how-i-reduced-my-jekyll-build-time-by-61</a>
-<a target="_blank" href="https://shopify.github.io/liquid/">https://shopify.github.io/liquid</a>
+<a target="_blank" href="https://forestry.io/blog/how-i-reduced-my-jekyll-build-time-by-61/">https://forestry.io/blog/how-i-reduced-my-jekyll-build-time-by-61</a><br>
+<a target="_blank" href="https://shopify.github.io/liquid/">https://shopify.github.io/liquid</a><br>
