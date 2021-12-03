@@ -5,13 +5,18 @@ MAKE A WEB website built using Jekyll and Bootstrap 4.
 
 Shortcuts: <a target="_blank" href="https://gist.github.com/akolinski/4e40aed78ecd8fe7bbf42f38092aa6bf">https://gist.github.com/akolinski/4e40aed78ecd8fe7bbf42f38092aa6bf</a>
 
+### Install dependencies
+<code>bundle install</code><br>
+<code>gem update</code><br>
+<code>gem cleanup</code><br>
+
 ### Build site
+<code>jekyll build</code><br>
 <code>bundle exec jekyll build</code><br>
-<code>jb</code><br>
 
 ### Serve site and watch for changes (Incremental regeneration)
+<code>jekyll serve --incremental</code><br>
 <code>bundle exec jekyll serve --incremental</code><br>
-<code>jsw</code><br>
 
 ## References and documentation
 
