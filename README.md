@@ -10,6 +10,8 @@ Shortcuts: <a target="_blank" href="https://gist.github.com/akolinski/4e40aed78e
 <code>gem update</code><br>
 <code>gem cleanup</code><br>
 
+We are running ruby ruby 2.6.6p146 on windows, need to check if updating to this on mac works
+
 ### Build site
 <code>jekyll build</code><br>
 <code>bundle exec jekyll build</code><br>
