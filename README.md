@@ -1,26 +1,58 @@
-# MAKE A WEB
-MAKE A WEB website built using Jekyll and Bootstrap 4.
+# Prerequisites 
 
-## Build commands
+Follow installation documentation for your OS https://jekyllrb.com/docs/installation/
 
-Shortcuts: <a target="_blank" href="https://gist.github.com/akolinski/4e40aed78ecd8fe7bbf42f38092aa6bf">https://gist.github.com/akolinski/4e40aed78ecd8fe7bbf42f38092aa6bf</a>
+You need to have ruby and gem installed.
 
-### Install dependencies
-<code>bundle install</code><br>
-<code>gem update</code><br>
-<code>gem cleanup</code><br>
+```
+ruby -v
+```
 
-We are running ruby ruby 2.6.6p146 on windows, need to check if updating to this on mac works
+```
+gem -v
+```
 
-### Build site
-<code>jekyll build</code><br>
-<code>bundle exec jekyll build</code><br>
+```
+git clone git@github.com:akolinski/makeaweb.git
+```
 
-### Serve site and watch for changes (Incremental regeneration)
-<code>jekyll serve --incremental</code><br>
-<code>bundle exec jekyll serve --incremental</code><br>
+```
+bundle install
+```
 
-## References and documentation
+```
+gem update
+```
+
+```
+bundle update --bundler
+bundle add webrick
+bundle install --redownload
+```
+
+## Generate and start developing
+
+```
+jekyll serve --watch
+```
+
+## Build the website for production
+
+```
+jekyll build
+```
+
+### Notes
+
+Created using Jekyll and Bootstrap 4
+
+Might have some issues on Apple machines running M1 CPU's on ARM arch. This article followed https://utpalkumar.medium.com/how-to-install-jekyll-on-apple-m1-macbook-c87894b7fc70 will solve your issues.
+
+### References and documentation
 
 <a target="_blank" href="https://forestry.io/blog/how-i-reduced-my-jekyll-build-time-by-61/">https://forestry.io/blog/how-i-reduced-my-jekyll-build-time-by-61</a><br>
 <a target="_blank" href="https://shopify.github.io/liquid/">https://shopify.github.io/liquid</a><br>
+
+### About the project
+
+Using github pages: https://makeaweb.com.au
