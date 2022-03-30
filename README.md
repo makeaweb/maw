@@ -13,7 +13,7 @@ gem -v
 ```
 
 ```
-git clone git@github.com:akolinski/makeaweb.git
+git clone git@github.com:makeaweb/maw.git
 ```
 
 ```
