@@ -33,7 +33,7 @@ bundle install --redownload
 ## Generate and start developing
 
 ```
-jekyll serve --watch
+jekyll serve -w --incremental --open-url --trace
 ```
 
 ## Build the website for production
