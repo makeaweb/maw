@@ -59,13 +59,8 @@
                     <li class="nav-item{% if page.url == "/" %} active{% endif %}">
                         <a class="nav-link" href="/">Home{% if page.url == "/" %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle{% if page.url contains 'services' %} service-active{% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="{{ site.url }}/services/website-development">Web development</a>
-                            <a class="dropdown-item" href="{{ site.url }}/services/design">Design</a>
-                            <a class="dropdown-item" href="{{ site.url }}/services/support">Support</a>
-                        </div>
+                    <li class="nav-item{% if page.url contains 'plans' %} active{% endif %}">
+                        <a class="nav-link" href="{{ site.url }}/plans">Plans{% if page.url contains 'plans' %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
                     <li class="nav-item{% if page.url contains 'projects' %} active{% endif %}">
                         <a class="nav-link" href="{{ site.url }}/projects">Projects{% if page.url contains 'projects' %} <span class="sr-only">(current)</span>{% endif %}</a>
@@ -106,12 +101,9 @@
                         <li class="list-group-item border-0 p-0 bg-dark"><a href="/">Home</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-2">
                     <ul class="list-group">
-                        <li class="list-group-item border-0 p-0 bg-dark"><a href="{{ site.url }}/services">Services</a></li>
-                        <li class="list-group-item border-0 p-0 bg-dark mt-1 ml-1"><a href="{{ site.url }}/services/website-development">Web development</a></li>
-                        <li class="list-group-item border-0 p-0 bg-dark ml-1"><a href="{{ site.url }}/services/design">Design</a></li>
-                        <li class="list-group-item border-0 p-0 bg-dark mb-1 mb-md-0 ml-1"><a href="{{ site.url }}/services/support">Support</a></li>
+                        <li class="list-group-item border-0 p-0 bg-dark text-white"><a href="{{ site.url }}/plans">Plans</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-2">
