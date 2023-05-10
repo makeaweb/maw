@@ -36,10 +36,22 @@ bundle install --redownload
 jekyll serve -w --incremental --open-url --trace
 ```
 
+OR
+
+```
+bundle exec jekyll serve -w --incremental --open-url --trace
+```
+
 ## Build the website for production
 
 ```
 jekyll build
+```
+
+OR
+
+```
+bundle exec jekyll build
 ```
 
 ### Notes
