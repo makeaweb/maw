@@ -21,6 +21,10 @@ bundle install
 ```
 
 ```
+bundle exec jekyll clean
+```
+
+```
 gem update
 ```
 
